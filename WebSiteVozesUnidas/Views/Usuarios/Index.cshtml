@@ -1,0 +1,54 @@
+﻿@* @model IEnumerable<WebSiteVozesUnidas.Models.Usuario>
+
+<h1>Lista de Contas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Tipo</th>
+            <th>CNPJ/CPF</th>
+            <th>Telefone</th>
+            <th>Descrição</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Tipo</td>
+                <td>
+                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
+                    {
+                        @empresa.Cnpj
+                    }
+                    else if (usuario is WebSiteVozesUnidas.Models.Candidato candidato)
+                    {
+                        @candidato.Cpf
+                    }
+                </td>
+                <td>
+                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
+                    {
+                        @empresa.Telefone
+                    }
+                </td>
+                <td>
+                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
+                    {
+                        @empresa.Descricao
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@usuario.IdUsuario">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@usuario.IdUsuario">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@
