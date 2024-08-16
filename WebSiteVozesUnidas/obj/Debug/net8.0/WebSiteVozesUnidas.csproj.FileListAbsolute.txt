@@ -525,3 +525,4 @@ C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\
 C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.pdb
 C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.genruntimeconfig.cache
 C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\ref\WebSiteVozesUnidas.dll
+C:\Users\SENAI3EM\source\repos\WebSiteVozesUnidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.sourcelink.json

@@ -17,79 +17,99 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebSiteVozesUnidas
 build_property.RootNamespace = WebSiteVozesUnidas
-build_property.ProjectDir = C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\
+build_property.ProjectDir = C:\Users\SENAI3EM\source\repos\WebSiteVozesUnidas\WebSiteVozesUnidas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas
+build_property.MSBuildProjectDirectory = C:\Users\SENAI3EM\source\repos\WebSiteVozesUnidas\WebSiteVozesUnidas
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Index.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Privacy.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/Error.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Noticias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Noticias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Noticias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Noticias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Noticias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Create.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Delete.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Details.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Edit.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Index.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuario/Create.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuario/Delete.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuario/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuario/Details.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuario/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuario/Edit.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuario/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuario/Index.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewImports.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewStart.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eric/Desktop/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_Layout.cshtml]
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jf2k8n1bpa

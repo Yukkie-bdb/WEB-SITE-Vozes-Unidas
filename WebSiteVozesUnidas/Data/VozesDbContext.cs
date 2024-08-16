@@ -11,6 +11,7 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Empresa> Empresa { get; set; }
         public DbSet<Candidato> Candidato { get; set; }
+        public DbSet<Noticia> Noticia { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -28,6 +29,9 @@ namespace WebSiteVozesUnidas.Data
             modelBuilder.Entity<Candidato>()
                 .ToTable("tbCandidato")
                 .HasBaseType<Usuario>();
+
+            modelBuilder.Entity<Noticia>()
+                .ToTable("tbNoticia");
         }
     }
 }

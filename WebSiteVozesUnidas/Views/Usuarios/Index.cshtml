@@ -2,6 +2,8 @@
 
 <h1>Lista de Contas</h1>
 
+<!-- Tabela para todos os usuários -->
+<h2>Todos os Usuários</h2>
 <table class="table">
     <thead>
         <tr>
@@ -22,17 +24,21 @@
                 <td>@usuario.Email</td>
                 <td>@usuario.Tipo</td>
 
-                @if (usuario is WebSiteVozesUnidas.Models.Empresa)
+                @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
                 {
-                    var empresa = usuario as WebSiteVozesUnidas.Models.Empresa;
                     <td>@empresa.Cnpj</td>
                     <td>@empresa.Telefone</td>
                     <td>@empresa.Descricao</td>
                 }
-                else if (usuario is WebSiteVozesUnidas.Models.Candidato)
+                else if (usuario is WebSiteVozesUnidas.Models.Candidato candidato)
                 {
-                    var candidato = usuario as WebSiteVozesUnidas.Models.Candidato;
                     <td>@candidato.Cpf</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                }
+                else
+                {
+                    <td>N/A</td>
                     <td>N/A</td>
                     <td>N/A</td>
                 }
@@ -45,4 +51,68 @@
         }
     </tbody>
 </table>
- 
+
+<!-- Tabela para usuários do tipo Empresa -->
+<h2>Empresas</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Tipo</th>
+            <th>CNPJ</th>
+            <th>Telefone</th>
+            <th>Descrição</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.OfType<WebSiteVozesUnidas.Models.Empresa>())
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Tipo</td>
+                <td>@usuario.Cnpj</td>
+                <td>@usuario.Telefone</td>
+                <td>@usuario.Descricao</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@usuario.IdUsuario">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@usuario.IdUsuario">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Tabela para usuários do tipo Candidato -->
+<h2>Candidatos</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Tipo</th>
+            <th>CPF</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.OfType<WebSiteVozesUnidas.Models.Candidato>())
+        {
+            <tr>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Tipo</td>
+                <td>@usuario.Cpf</td>
+
+
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@usuario.IdUsuario">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@usuario.IdUsuario">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

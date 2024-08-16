@@ -9,6 +9,10 @@ namespace WebSiteVozesUnidas.Models
         public string Email { get; set; }
         public string Senha { get; set; }
         public UsuarioTipo Tipo { get; set; }
+        public IEnumerable<Noticia>? Noticias { get; set; }
+
+
+
 
     }
     public enum UsuarioTipo
