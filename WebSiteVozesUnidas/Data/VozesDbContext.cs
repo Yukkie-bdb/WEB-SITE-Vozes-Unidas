@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebSiteVozesUnidas.Models;
+using WebSiteVozesUnidas.ViewModels;
 
 namespace WebSiteVozesUnidas.Data
 {
@@ -15,15 +16,18 @@ namespace WebSiteVozesUnidas.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Usuario>()
-                .HasDiscriminator<UsuarioTipo>("Tipo")
-                .HasValue<Candidato>(UsuarioTipo.Candidato)
-                .HasValue<Empresa>(UsuarioTipo.Empresa);
+                .ToTable("tbUsuario")
+                .HasKey(u => u.IdUsuario);
 
-            modelBuilder.Entity<Usuario>().ToTable("tbUsuario").HasKey(u => u.IdUsuario);
-            modelBuilder.Entity<Empresa>().ToTable("tbEmpresa");
-            modelBuilder.Entity<Candidato>().ToTable("tbCandidato");
+            modelBuilder.Entity<Empresa>()
+                .ToTable("tbEmpresa")
+                .HasBaseType<Usuario>();
 
+            modelBuilder.Entity<Candidato>()
+                .ToTable("tbCandidato")
+                .HasBaseType<Usuario>();
         }
     }
 }

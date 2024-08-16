@@ -1,4 +1,4 @@
-﻿@* @model IEnumerable<WebSiteVozesUnidas.Models.Usuario>
+﻿@model IEnumerable<WebSiteVozesUnidas.Models.Usuario>
 
 <h1>Lista de Contas</h1>
 
@@ -21,28 +21,22 @@
                 <td>@usuario.Nome</td>
                 <td>@usuario.Email</td>
                 <td>@usuario.Tipo</td>
-                <td>
-                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
-                    {
-                        @empresa.Cnpj
-                    }
-                    else if (usuario is WebSiteVozesUnidas.Models.Candidato candidato)
-                    {
-                        @candidato.Cpf
-                    }
-                </td>
-                <td>
-                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
-                    {
-                        @empresa.Telefone
-                    }
-                </td>
-                <td>
-                    @if (usuario is WebSiteVozesUnidas.Models.Empresa empresa)
-                    {
-                        @empresa.Descricao
-                    }
-                </td>
+
+                @if (usuario is WebSiteVozesUnidas.Models.Empresa)
+                {
+                    var empresa = usuario as WebSiteVozesUnidas.Models.Empresa;
+                    <td>@empresa.Cnpj</td>
+                    <td>@empresa.Telefone</td>
+                    <td>@empresa.Descricao</td>
+                }
+                else if (usuario is WebSiteVozesUnidas.Models.Candidato)
+                {
+                    var candidato = usuario as WebSiteVozesUnidas.Models.Candidato;
+                    <td>@candidato.Cpf</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                }
+
                 <td>
                     <a asp-action="Edit" asp-route-id="@usuario.IdUsuario">Editar</a> |
                     <a asp-action="Delete" asp-route-id="@usuario.IdUsuario">Deletar</a>
@@ -51,4 +45,4 @@
         }
     </tbody>
 </table>
- *@
+ 

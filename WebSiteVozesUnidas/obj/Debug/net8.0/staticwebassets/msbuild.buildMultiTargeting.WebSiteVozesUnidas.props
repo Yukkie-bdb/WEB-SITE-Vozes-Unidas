@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebSiteVozesUnidas.props" />
+</Project>
