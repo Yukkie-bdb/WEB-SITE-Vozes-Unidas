@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\SENAI3EM\source\repos\WebSiteVozesUnidas\WebSiteVozesUnidas
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SENAI3EM/source/repos/WebSiteVozesUnidas/WebSiteVozesUnidas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

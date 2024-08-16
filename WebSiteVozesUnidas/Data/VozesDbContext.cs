@@ -12,6 +12,7 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<Empresa> Empresa { get; set; }
         public DbSet<Candidato> Candidato { get; set; }
         public DbSet<Noticia> Noticia { get; set; }
+        public DbSet<AvaliacaoEspecialhista> AvaliacaoEspecialhista { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -32,6 +33,10 @@ namespace WebSiteVozesUnidas.Data
 
             modelBuilder.Entity<Noticia>()
                 .ToTable("tbNoticia");
+
+            modelBuilder.Entity<AvaliacaoEspecialhista>()
+                .ToTable("tbAvaliacaoEspecialhista")
+                .HasKey(u => u.IdAvaliacaoEspecialhis);
         }
     }
 }
