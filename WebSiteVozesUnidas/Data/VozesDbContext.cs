@@ -16,6 +16,8 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<MaterialDidatico> MaterialDidatico { get; set; }
         public DbSet<CategoriaMaterial> CategoriaMaterial { get; set; }
         public DbSet<Especialhista> Especialhista { get; set; }
+        public DbSet<Post> Post { get; set; }
+        public DbSet<Comentario> Comentario { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -53,6 +55,32 @@ namespace WebSiteVozesUnidas.Data
             modelBuilder.Entity<Especialhista>()
                 .ToTable("tbEspecialhista")
                 .HasKey(u => u.IdEspecialhista);
+
+            modelBuilder.Entity<Post>()
+                .ToTable("tbPost")
+                .HasKey(u => u.IdPost);
+
+            modelBuilder.Entity<Comentario>()
+                .ToTable("tbComentario")
+                .HasKey(u => u.IdComentario);
+
+            modelBuilder.Entity<Post>()
+               .HasOne(p => p.Usuario)
+               .WithMany(u => u.Posts)
+               .HasForeignKey(p => p.UsuarioId)
+               .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<Comentario>()
+                .HasOne(c => c.Post)
+                .WithMany(p => p.Comentarios)
+                .HasForeignKey(c => c.PostId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Comentario>()
+                .HasOne(c => c.Usuario)
+                .WithMany(u => u.Comentarios)
+                .HasForeignKey(c => c.UsuarioId)
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

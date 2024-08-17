@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebSiteVozesUnidas.Data;
 
@@ -11,9 +12,11 @@ using WebSiteVozesUnidas.Data;
 namespace WebSiteVozesUnidas.Migrations
 {
     [DbContext(typeof(VozesDbContext))]
-    partial class VozesDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240817200735_forumMVC")]
+    partial class forumMVC
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -75,17 +78,12 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("PostId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("UsuarioId")
+                    b.Property<Guid>("PostId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("IdComentario");
 
                     b.HasIndex("PostId");
-
-                    b.HasIndex("UsuarioId");
 
                     b.ToTable("tbComentario", (string)null);
                 });
@@ -292,16 +290,10 @@ namespace WebSiteVozesUnidas.Migrations
                     b.HasOne("WebSiteVozesUnidas.Models.Post", "Post")
                         .WithMany("Comentarios")
                         .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("WebSiteVozesUnidas.Models.Usuario", "Usuario")
-                        .WithMany("Comentarios")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Post");
-
-                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Especialhista", b =>
@@ -336,9 +328,8 @@ namespace WebSiteVozesUnidas.Migrations
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Post", b =>
                 {
                     b.HasOne("WebSiteVozesUnidas.Models.Usuario", "Usuario")
-                        .WithMany("Posts")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .WithMany()
+                        .HasForeignKey("UsuarioId");
 
                     b.Navigation("Usuario");
                 });
@@ -380,13 +371,9 @@ namespace WebSiteVozesUnidas.Migrations
                 {
                     b.Navigation("AvaliacoesEspecialhistas");
 
-                    b.Navigation("Comentarios");
-
                     b.Navigation("Especialhistas");
 
                     b.Navigation("Noticias");
-
-                    b.Navigation("Posts");
                 });
 #pragma warning restore 612, 618
         }

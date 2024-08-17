@@ -624,6 +624,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
@@ -639,6 +671,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js))">
       <SourceType>Package</SourceType>

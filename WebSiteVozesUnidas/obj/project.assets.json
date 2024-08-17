@@ -8746,11 +8746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+      "projectUniqueName": "C:\\Users\\Eric\\Desktop\\Nova pasta (2)\\Nova pasta\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
       "projectName": "WebSiteVozesUnidas",
-      "projectPath": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+      "projectPath": "C:\\Users\\Eric\\Desktop\\Nova pasta (2)\\Nova pasta\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
       "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\",
+      "outputPath": "C:\\Users\\Eric\\Desktop\\Nova pasta (2)\\Nova pasta\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

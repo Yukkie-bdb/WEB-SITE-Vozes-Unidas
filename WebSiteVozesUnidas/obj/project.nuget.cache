@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QXZGMFE/I98=",
+  "dgSpecHash": "Gnrbw2V0S6c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+  "projectFilePath": "C:\\Users\\Eric\\Desktop\\Nova pasta (2)\\Nova pasta\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eric\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Eric\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

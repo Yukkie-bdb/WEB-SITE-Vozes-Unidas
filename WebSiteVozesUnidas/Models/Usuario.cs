@@ -12,6 +12,8 @@ namespace WebSiteVozesUnidas.Models
         public IEnumerable<Noticia>? Noticias { get; set; }
         public IEnumerable<AvaliacaoEspecialhista>? AvaliacoesEspecialhistas { get; set; }
         public IEnumerable<Especialhista>? Especialhistas { get; set; }
+        public IEnumerable<Post>? Posts { get; set; }
+        public IEnumerable<Comentario>? Comentarios { get; set; }
 
 
 
