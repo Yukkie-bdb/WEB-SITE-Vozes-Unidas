@@ -13,6 +13,9 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<Candidato> Candidato { get; set; }
         public DbSet<Noticia> Noticia { get; set; }
         public DbSet<AvaliacaoEspecialhista> AvaliacaoEspecialhista { get; set; }
+        public DbSet<MaterialDidatico> MaterialDidatico { get; set; }
+        public DbSet<CategoriaMaterial> CategoriaMaterial { get; set; }
+        public DbSet<Especialhista> Especialhista { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,6 +40,19 @@ namespace WebSiteVozesUnidas.Data
             modelBuilder.Entity<AvaliacaoEspecialhista>()
                 .ToTable("tbAvaliacaoEspecialhista")
                 .HasKey(u => u.IdAvaliacaoEspecialhis);
+
+            modelBuilder.Entity<MaterialDidatico>()
+                .ToTable("tbMaterialDidatico")
+                .HasKey(u => u.IdMaterialDidatico);
+
+
+            modelBuilder.Entity<CategoriaMaterial>()
+                .ToTable("tbCategoriaMaterial")
+                .HasKey(u => u.IdCategoriaMaterial);
+
+            modelBuilder.Entity<Especialhista>()
+                .ToTable("tbEspecialhista")
+                .HasKey(u => u.IdEspecialhista);
         }
     }
 }

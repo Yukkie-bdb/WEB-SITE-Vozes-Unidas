@@ -8740,23 +8740,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SENAI3EM\\.nuget\\packages\\": {},
+    "C:\\Users\\Eric\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENAI3EM\\source\\repos\\WebSiteVozesUnidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+      "projectUniqueName": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
       "projectName": "WebSiteVozesUnidas",
-      "projectPath": "C:\\Users\\SENAI3EM\\source\\repos\\WebSiteVozesUnidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
-      "packagesPath": "C:\\Users\\SENAI3EM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENAI3EM\\source\\repos\\WebSiteVozesUnidas\\WebSiteVozesUnidas\\obj\\",
+      "projectPath": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+      "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eric\\Desktop\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SENAI3EM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,0 +1,158 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using WebSiteVozesUnidas.Data;
+using WebSiteVozesUnidas.Models;
+
+namespace WebSiteVozesUnidas.Controllers
+{
+    public class EspecialhistasController : Controller
+    {
+        private readonly VozesDbContext _context;
+
+        public EspecialhistasController(VozesDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Especialhistas
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Especialhista.ToListAsync());
+        }
+
+        // GET: Especialhistas/Details/5
+        public async Task<IActionResult> Details(Guid? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var especialhista = await _context.Especialhista
+                .FirstOrDefaultAsync(m => m.IdEspecialhista == id);
+            if (especialhista == null)
+            {
+                return NotFound();
+            }
+
+            return View(especialhista);
+        }
+
+        // GET: Especialhistas/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Especialhistas/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade")] Especialhista especialhista)
+        {
+            if (ModelState.IsValid)
+            {
+                especialhista.IdEspecialhista = Guid.NewGuid();
+                _context.Add(especialhista);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(especialhista);
+        }
+
+        // GET: Especialhistas/Edit/5
+        public async Task<IActionResult> Edit(Guid? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var especialhista = await _context.Especialhista.FindAsync(id);
+            if (especialhista == null)
+            {
+                return NotFound();
+            }
+            return View(especialhista);
+        }
+
+        // POST: Especialhistas/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade")] Especialhista especialhista)
+        {
+            if (id != especialhista.IdEspecialhista)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(especialhista);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!EspecialhistaExists(especialhista.IdEspecialhista))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(especialhista);
+        }
+
+        // GET: Especialhistas/Delete/5
+        public async Task<IActionResult> Delete(Guid? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var especialhista = await _context.Especialhista
+                .FirstOrDefaultAsync(m => m.IdEspecialhista == id);
+            if (especialhista == null)
+            {
+                return NotFound();
+            }
+
+            return View(especialhista);
+        }
+
+        // POST: Especialhistas/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        {
+            var especialhista = await _context.Especialhista.FindAsync(id);
+            if (especialhista != null)
+            {
+                _context.Especialhista.Remove(especialhista);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool EspecialhistaExists(Guid id)
+        {
+            return _context.Especialhista.Any(e => e.IdEspecialhista == id);
+        }
+    }
+}

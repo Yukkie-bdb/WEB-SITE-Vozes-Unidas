@@ -11,6 +11,7 @@ namespace WebSiteVozesUnidas.Models
         public UsuarioTipo Tipo { get; set; }
         public IEnumerable<Noticia>? Noticias { get; set; }
         public IEnumerable<AvaliacaoEspecialhista>? AvaliacoesEspecialhistas { get; set; }
+        public IEnumerable<Especialhista>? Especialhistas { get; set; }
 
 
 

@@ -7,5 +7,7 @@
         public int Estrelas { get; set; }
         public Guid UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
+        public Guid EspecialhistaId { get; set; }
+        public Especialhista? Especialhista { get; set; }
     }
 }

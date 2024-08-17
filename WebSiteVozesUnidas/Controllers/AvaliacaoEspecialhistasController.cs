@@ -22,7 +22,7 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: AvaliacaoEspecialhistas
         public async Task<IActionResult> Index()
         {
-            var vozesDbContext = _context.AvaliacaoEspecialhista.Include(a => a.Usuario);
+            var vozesDbContext = _context.AvaliacaoEspecialhista.Include(a => a.Especialhista).Include(a => a.Usuario);
             return View(await vozesDbContext.ToListAsync());
         }
 
@@ -35,6 +35,7 @@ namespace WebSiteVozesUnidas.Controllers
             }
 
             var avaliacaoEspecialhista = await _context.AvaliacaoEspecialhista
+                .Include(a => a.Especialhista)
                 .Include(a => a.Usuario)
                 .FirstOrDefaultAsync(m => m.IdAvaliacaoEspecialhis == id);
             if (avaliacaoEspecialhista == null)
@@ -48,7 +49,8 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: AvaliacaoEspecialhistas/Create
         public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome");
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario");
             return View();
         }
 
@@ -57,7 +59,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,UsuarioId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
+        public async Task<IActionResult> Create([Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,UsuarioId,EspecialhistaId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +68,8 @@ namespace WebSiteVozesUnidas.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
@@ -83,7 +86,8 @@ namespace WebSiteVozesUnidas.Controllers
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
@@ -92,7 +96,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,UsuarioId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,UsuarioId,EspecialhistaId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
         {
             if (id != avaliacaoEspecialhista.IdAvaliacaoEspecialhis)
             {
@@ -119,7 +123,8 @@ namespace WebSiteVozesUnidas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
@@ -132,6 +137,7 @@ namespace WebSiteVozesUnidas.Controllers
             }
 
             var avaliacaoEspecialhista = await _context.AvaliacaoEspecialhista
+                .Include(a => a.Especialhista)
                 .Include(a => a.Usuario)
                 .FirstOrDefaultAsync(m => m.IdAvaliacaoEspecialhis == id);
             if (avaliacaoEspecialhista == null)

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebSiteVozesUnidas.Models.MaterialDidatico>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgMaterial)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.Categoria)
+            </td>
+            <td>
+                    <img src="~/img/@item.ImgMaterial" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

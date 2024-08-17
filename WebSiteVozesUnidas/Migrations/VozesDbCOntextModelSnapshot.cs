@@ -32,6 +32,9 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("EspecialhistaId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<int>("Estrelas")
                         .HasColumnType("int");
 
@@ -40,9 +43,85 @@ namespace WebSiteVozesUnidas.Migrations
 
                     b.HasKey("IdAvaliacaoEspecialhis");
 
+                    b.HasIndex("EspecialhistaId");
+
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("tbAvaliacaoEspecialhista", (string)null);
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.CategoriaMaterial", b =>
+                {
+                    b.Property<Guid>("IdCategoriaMaterial")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdCategoriaMaterial");
+
+                    b.ToTable("tbCategoriaMaterial", (string)null);
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.Especialhista", b =>
+                {
+                    b.Property<Guid>("IdEspecialhista")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Especialhidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("UsuarioIdUsuario")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("IdEspecialhista");
+
+                    b.HasIndex("UsuarioIdUsuario");
+
+                    b.ToTable("tbEspecialhista", (string)null);
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.MaterialDidatico", b =>
+                {
+                    b.Property<Guid>("IdMaterialDidatico")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoriaId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImgMaterial")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdMaterialDidatico");
+
+                    b.HasIndex("CategoriaId");
+
+                    b.ToTable("tbMaterialDidatico", (string)null);
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Noticia", b =>
@@ -135,13 +214,39 @@ namespace WebSiteVozesUnidas.Migrations
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.AvaliacaoEspecialhista", b =>
                 {
+                    b.HasOne("WebSiteVozesUnidas.Models.Especialhista", "Especialhista")
+                        .WithMany("AvaliacoesEspecialhistas")
+                        .HasForeignKey("EspecialhistaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("WebSiteVozesUnidas.Models.Usuario", "Usuario")
                         .WithMany("AvaliacoesEspecialhistas")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Especialhista");
+
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.Especialhista", b =>
+                {
+                    b.HasOne("WebSiteVozesUnidas.Models.Usuario", null)
+                        .WithMany("Especialhistas")
+                        .HasForeignKey("UsuarioIdUsuario");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.MaterialDidatico", b =>
+                {
+                    b.HasOne("WebSiteVozesUnidas.Models.CategoriaMaterial", "Categoria")
+                        .WithMany("MaterialDidaticos")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categoria");
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Noticia", b =>
@@ -173,9 +278,21 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.CategoriaMaterial", b =>
+                {
+                    b.Navigation("MaterialDidaticos");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.Especialhista", b =>
+                {
+                    b.Navigation("AvaliacoesEspecialhistas");
+                });
+
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Usuario", b =>
                 {
                     b.Navigation("AvaliacoesEspecialhistas");
+
+                    b.Navigation("Especialhistas");
 
                     b.Navigation("Noticias");
                 });
