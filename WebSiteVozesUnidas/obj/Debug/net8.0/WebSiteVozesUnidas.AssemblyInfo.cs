@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSiteVozesUnidas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d768af7d248c9175f1d3eb9cf51617b1ea547378")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a219d320557b0cb37acec1e8676fc4917064eac")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSiteVozesUnidas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSiteVozesUnidas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

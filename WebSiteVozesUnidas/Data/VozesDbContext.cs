@@ -18,6 +18,7 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<Especialhista> Especialhista { get; set; }
         public DbSet<Post> Post { get; set; }
         public DbSet<Comentario> Comentario { get; set; }
+        public DbSet<CategoriaPost> CategoriaPost { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -81,6 +82,10 @@ namespace WebSiteVozesUnidas.Data
                 .WithMany(u => u.Comentarios)
                 .HasForeignKey(c => c.UsuarioId)
                 .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<CategoriaPost>()
+                .ToTable("tbCategoriaPost")
+                .HasKey(u => u.IdCategoriaPost);
         }
     }
 }

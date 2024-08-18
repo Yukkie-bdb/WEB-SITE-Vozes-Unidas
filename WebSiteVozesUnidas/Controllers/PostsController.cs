@@ -22,7 +22,7 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: Posts
         public async Task<IActionResult> Index()
         {
-            var vozesDbContext = _context.Post.Include(p => p.Usuario);
+            var vozesDbContext = _context.Post.Include(p => p.CategoriaPost).Include(p => p.Usuario);
             return View(await vozesDbContext.ToListAsync());
         }
 
@@ -35,6 +35,7 @@ namespace WebSiteVozesUnidas.Controllers
             }
 
             var post = await _context.Post
+                .Include(p => p.CategoriaPost)
                 .Include(p => p.Usuario)
                 .FirstOrDefaultAsync(m => m.IdPost == id);
             if (post == null)
@@ -48,6 +49,7 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: Posts/Create
         public IActionResult Create()
         {
+            ViewData["CategoriaPostId"] = new SelectList(_context.CategoriaPost, "IdCategoriaPost", "IdCategoriaPost");
             ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario");
             return View();
         }
@@ -57,7 +59,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdPost,Titulo,Conteudo,ImgPost,Horario,UsuarioId")] Post post)
+        public async Task<IActionResult> Create([Bind("IdPost,Titulo,Conteudo,ImgPost,Horario,UsuarioId,CategoriaPostId")] Post post)
         {
             if (ModelState.IsValid)
             {
@@ -66,6 +68,7 @@ namespace WebSiteVozesUnidas.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaPostId"] = new SelectList(_context.CategoriaPost, "IdCategoriaPost", "IdCategoriaPost", post.CategoriaPostId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", post.UsuarioId);
             return View(post);
         }
@@ -83,6 +86,7 @@ namespace WebSiteVozesUnidas.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoriaPostId"] = new SelectList(_context.CategoriaPost, "IdCategoriaPost", "IdCategoriaPost", post.CategoriaPostId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", post.UsuarioId);
             return View(post);
         }
@@ -92,7 +96,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("IdPost,Titulo,Conteudo,ImgPost,Horario,UsuarioId")] Post post)
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdPost,Titulo,Conteudo,ImgPost,Horario,UsuarioId,CategoriaPostId")] Post post)
         {
             if (id != post.IdPost)
             {
@@ -119,6 +123,7 @@ namespace WebSiteVozesUnidas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaPostId"] = new SelectList(_context.CategoriaPost, "IdCategoriaPost", "IdCategoriaPost", post.CategoriaPostId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", post.UsuarioId);
             return View(post);
         }
@@ -132,6 +137,7 @@ namespace WebSiteVozesUnidas.Controllers
             }
 
             var post = await _context.Post
+                .Include(p => p.CategoriaPost)
                 .Include(p => p.Usuario)
                 .FirstOrDefaultAsync(m => m.IdPost == id);
             if (post == null)

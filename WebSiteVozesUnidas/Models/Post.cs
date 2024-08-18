@@ -9,6 +9,8 @@
         public DateTime Horario { get; set; }
         public Guid? UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
+        public Guid? CategoriaPostId { get; set; }
+        public CategoriaPost? CategoriaPost { get; set; }
         public IEnumerable<Comentario>? Comentarios { get; set; }
 
     }
