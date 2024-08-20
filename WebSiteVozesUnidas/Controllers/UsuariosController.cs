@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 using WebSiteVozesUnidas.Models;
 using WebSiteVozesUnidas.Data;
 using WebSiteVozesUnidas.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using Org.BouncyCastle.Crypto.Generators;
 
 namespace WebSiteVozesUnidas.Controllers
 {
@@ -14,19 +18,21 @@ namespace WebSiteVozesUnidas.Controllers
         {
             _context = context;
         }
+
         public async Task<IActionResult> Index()
         {
             var usuarios = _context.Usuario.ToList();
             return View(usuarios);
         }
-        public IActionResult Create()
+
+        public IActionResult Register()
         {
             return View(new UsuarioViewModel());
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(UsuarioViewModel usuarioViewModel)
+        public async Task<IActionResult> Register(UsuarioViewModel usuarioViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -39,7 +45,7 @@ namespace WebSiteVozesUnidas.Controllers
                         IdUsuario = Guid.NewGuid(),
                         Nome = usuarioViewModel.Nome,
                         Email = usuarioViewModel.Email,
-                        Senha = usuarioViewModel.Senha,
+                        Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha),
                         Tipo = usuarioViewModel.Tipo,
                         Cnpj = usuarioViewModel.Cnpj,
                         Telefone = usuarioViewModel.Telefone,
@@ -53,18 +59,74 @@ namespace WebSiteVozesUnidas.Controllers
                         IdUsuario = Guid.NewGuid(),
                         Nome = usuarioViewModel.Nome,
                         Email = usuarioViewModel.Email,
-                        Senha = usuarioViewModel.Senha,
+                        Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha),
                         Tipo = usuarioViewModel.Tipo,
                         Cpf = usuarioViewModel.Cpf
                     };
                 }
 
                 _context.Usuario.Add(usuario);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
+
+                // Fazer login automático após o registro
+                await SignInUser(usuario);
                 return RedirectToAction(nameof(Index));
             }
 
             return View(usuarioViewModel);
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(UsuarioViewModel loginViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuario = await _context.Usuario
+                    .FirstOrDefaultAsync(u => u.Email == loginViewModel.Email);
+
+                if (usuario != null && BCrypt.Net.BCrypt.Verify(loginViewModel.Senha, usuario.Senha))
+                {
+                    // Login bem-sucedido
+                    await SignInUser(usuario);
+                    return RedirectToAction(nameof(Index));
+                }
+
+                ModelState.AddModelError(string.Empty, "Email ou senha inválidos.");
+            }
+
+            return View(loginViewModel);
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction(nameof(Login));
+        }
+
+        private async Task SignInUser(Usuario usuario)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, usuario.Nome),
+                new Claim(ClaimTypes.Email, usuario.Email),
+                new Claim("UsuarioId", usuario.IdUsuario.ToString()),
+                new Claim("UsuarioTipo", usuario.Tipo.ToString())
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true
+            };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity), authProperties);
         }
 
         public IActionResult Edit(Guid id)
@@ -93,7 +155,7 @@ namespace WebSiteVozesUnidas.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Guid id, UsuarioViewModel usuarioViewModel)
+        public async Task<IActionResult> Edit(Guid id, UsuarioViewModel usuarioViewModel)
         {
             if (id != usuarioViewModel.IdUsuario)
             {
@@ -112,7 +174,7 @@ namespace WebSiteVozesUnidas.Controllers
                 {
                     empresa.Nome = usuarioViewModel.Nome;
                     empresa.Email = usuarioViewModel.Email;
-                    empresa.Senha = usuarioViewModel.Senha;
+                    empresa.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha);
                     empresa.Cnpj = usuarioViewModel.Cnpj;
                     empresa.Telefone = usuarioViewModel.Telefone;
                     empresa.Descricao = usuarioViewModel.Descricao;
@@ -121,19 +183,17 @@ namespace WebSiteVozesUnidas.Controllers
                 {
                     candidato.Nome = usuarioViewModel.Nome;
                     candidato.Email = usuarioViewModel.Email;
-                    candidato.Senha = usuarioViewModel.Senha;
+                    candidato.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha);
                     candidato.Cpf = usuarioViewModel.Cpf;
                 }
                 else
                 {
-                    // Handle error for unexpected type or invalid state
                     ModelState.AddModelError("", "Tipo de usuário inválido.");
-                    Console.WriteLine("a");
                     return View(usuarioViewModel);
                 }
 
                 _context.Update(usuario);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
 
