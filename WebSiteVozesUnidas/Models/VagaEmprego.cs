@@ -13,6 +13,6 @@
         public Empresa Empresa { get; set; }
 
         // Relacionamento com Candidaturas
-        public IEnumerable<CandidaturaVagamprego> CandidaturaVagampregos { get; set; }
+        public IEnumerable<CandidaturaVagamprego>? CandidaturaVagampregos { get; set; }
     }
 }

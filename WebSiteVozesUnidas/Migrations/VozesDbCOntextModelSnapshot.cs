@@ -56,10 +56,10 @@ namespace WebSiteVozesUnidas.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CandidatoId")
+                    b.Property<Guid?>("CandidatoId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("VagaId")
+                    b.Property<Guid?>("VagaId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("IdCandidaturaVagamprego");
@@ -362,16 +362,14 @@ namespace WebSiteVozesUnidas.Migrations
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidaturaVagamprego", b =>
                 {
                     b.HasOne("WebSiteVozesUnidas.Models.Candidato", "Candidato")
-                        .WithMany()
+                        .WithMany("CandidaturaVagampregos")
                         .HasForeignKey("CandidatoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("WebSiteVozesUnidas.Models.VagaEmprego", "Vaga")
                         .WithMany("CandidaturaVagampregos")
                         .HasForeignKey("VagaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Candidato");
 
@@ -443,7 +441,7 @@ namespace WebSiteVozesUnidas.Migrations
             modelBuilder.Entity("WebSiteVozesUnidas.Models.VagaEmprego", b =>
                 {
                     b.HasOne("WebSiteVozesUnidas.Models.Empresa", "Empresa")
-                        .WithMany()
+                        .WithMany("VagaEmpregos")
                         .HasForeignKey("EmpresaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -505,6 +503,16 @@ namespace WebSiteVozesUnidas.Migrations
             modelBuilder.Entity("WebSiteVozesUnidas.Models.VagaEmprego", b =>
                 {
                     b.Navigation("CandidaturaVagampregos");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.Candidato", b =>
+                {
+                    b.Navigation("CandidaturaVagampregos");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.Empresa", b =>
+                {
+                    b.Navigation("VagaEmpregos");
                 });
 #pragma warning restore 612, 618
         }

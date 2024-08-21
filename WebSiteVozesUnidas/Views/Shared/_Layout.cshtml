@@ -52,7 +52,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="CategoriaPosts" asp-action="index">CategoriaPosts</a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="VagaEmpregoes" asp-action="index">Vagas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CandidaturaVagampregoes" asp-action="index">Candidatos</a>
+                        </li>
                     </ul>
+                </div>
+                @{
+                    var userName = User.Identity.IsAuthenticated ? User.Identity.Name : "Visitante";
+                }
+                <div>
+                    <p>Olá, @userName!</p>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                 </div>
             </div>
         </nav>

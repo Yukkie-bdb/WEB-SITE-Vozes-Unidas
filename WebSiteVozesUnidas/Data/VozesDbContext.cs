@@ -97,6 +97,20 @@ namespace WebSiteVozesUnidas.Data
                 .ToTable("tbCandidaturaVagamprego")
                 .HasKey(u => u.IdCandidaturaVagamprego);
 
+            // Configurar a relação entre CandidaturaVagaEmprego e Candidato
+            modelBuilder.Entity<CandidaturaVagamprego>()
+                .HasOne(cv => cv.Candidato)
+                .WithMany(c => c.CandidaturaVagampregos)
+                .HasForeignKey(cv => cv.CandidatoId)
+                .OnDelete(DeleteBehavior.Restrict); // Evitar exclusão em cascata ao excluir o candidato
+
+            // Configurar a relação entre CandidaturaVagaEmprego e VagaEmprego
+            modelBuilder.Entity<CandidaturaVagamprego>()
+                .HasOne(cv => cv.Vaga)
+                .WithMany(v => v.CandidaturaVagampregos)
+                .HasForeignKey(cv => cv.VagaId)
+                .OnDelete(DeleteBehavior.Restrict); // Evitar exclusão em cascata ao excluir a vaga de emprego
+
 
         }
     }

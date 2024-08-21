@@ -32,12 +32,16 @@ namespace WebSiteVozesUnidas.Models
         public string Cnpj { get; set; }
         public string Telefone { get; set; }
         public string Descricao { get; set; }
+        public IEnumerable<VagaEmprego>? VagaEmpregos { get; set; }
+
 
     }
 
     public class Candidato : Usuario
     {
         public string Cpf { get; set; }
+        public IEnumerable<CandidaturaVagamprego>? CandidaturaVagampregos { get; set; }
+
 
     }
 }
