@@ -1,459 +1,471 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebSiteVozesUnidas.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
       "PackagePath": "staticwebassets\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg",
+      "PackagePath": "staticwebassets\\img\\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png",
       "PackagePath": "staticwebassets\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png",
+      "PackagePath": "staticwebassets\\img\\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png",
       "PackagePath": "staticwebassets\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png",
       "PackagePath": "staticwebassets\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg",
       "PackagePath": "staticwebassets\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png",
       "PackagePath": "staticwebassets\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png",
       "PackagePath": "staticwebassets\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
       "PackagePath": "staticwebassets\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4",
       "PackagePath": "staticwebassets\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg",
+      "PackagePath": "staticwebassets\\img\\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\RCA\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

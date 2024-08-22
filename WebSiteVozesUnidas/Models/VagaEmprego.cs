@@ -10,7 +10,7 @@
 
         // Relacionamento com Empresa
         public Guid EmpresaId { get; set; }
-        public Empresa Empresa { get; set; }
+        public Empresa? Empresa { get; set; }
 
         // Relacionamento com Candidaturas
         public IEnumerable<CandidaturaVagamprego>? CandidaturaVagampregos { get; set; }

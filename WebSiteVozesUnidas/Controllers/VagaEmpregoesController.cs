@@ -57,8 +57,13 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdVagaEmprego,Titulo,Descricao,Requisitos,DataPublicacao,EmpresaId")] VagaEmprego vagaEmprego)
+        public async Task<IActionResult> Create([Bind("IdVagaEmprego,Titulo,Descricao,Requisitos,DataPublicacao")] VagaEmprego vagaEmprego)
         {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId");
+            var userId = userIdClaim.Value;
+
+            vagaEmprego.EmpresaId = Guid.Parse(userId);
+
             if (ModelState.IsValid)
             {
                 vagaEmprego.IdVagaEmprego = Guid.NewGuid();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -87,6 +88,17 @@ namespace WebSiteVozesUnidas.Controllers
                     noticia.ImgCapa = uniqueFileName;
                 }
 
+
+                    //var userName = User.Identity.Name;
+
+                    var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId");
+                    var userId = userIdClaim?.Value;
+
+                    //var userTypeClaim = User.Claims.FirstOrDefault(c => c.Type == "UsuarioTipo");
+                    //var userType = userTypeClaim?.Value;
+    
+
+                noticia.UsuarioId = Guid.Parse(userId);
                 _context.Add(noticia);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

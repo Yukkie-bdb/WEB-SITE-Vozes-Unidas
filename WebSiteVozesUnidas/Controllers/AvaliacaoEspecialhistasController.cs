@@ -59,8 +59,12 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,UsuarioId,EspecialhistaId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
+        public async Task<IActionResult> Create([Bind("IdAvaliacaoEspecialhis,Descricao,Estrelas,EspecialhistaId")] AvaliacaoEspecialhista avaliacaoEspecialhista)
         {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId");
+            var userId = userIdClaim.Value;
+
+            avaliacaoEspecialhista.UsuarioId = Guid.Parse(userId);
             if (ModelState.IsValid)
             {
                 avaliacaoEspecialhista.IdAvaliacaoEspecialhis = Guid.NewGuid();

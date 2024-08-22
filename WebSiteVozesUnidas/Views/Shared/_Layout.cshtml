@@ -59,14 +59,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="CandidaturaVagampregoes" asp-action="index">Candidatos</a>
                         </li>
                     </ul>
+
+                    @{
+                        var userName = User.Identity.IsAuthenticated ? User.Identity.Name : "Visitante";
+                    }
+                    <div class="d-flex">
+                        <p>Olá, @userName!</p>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+                    </div>
+
                 </div>
-                @{
-                    var userName = User.Identity.IsAuthenticated ? User.Identity.Name : "Visitante";
-                }
-                <div>
-                    <p>Olá, @userName!</p>
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
-                </div>
+                
             </div>
         </nav>
     </header>

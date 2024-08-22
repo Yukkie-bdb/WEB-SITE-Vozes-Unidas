@@ -7,6 +7,8 @@ using WebSiteVozesUnidas.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Org.BouncyCastle.Crypto.Generators;
+using Org.BouncyCastle.Crypto.Tls;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebSiteVozesUnidas.Controllers
 {
@@ -83,22 +85,45 @@ namespace WebSiteVozesUnidas.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Login(UsuarioViewModel loginViewModel)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(loginViewModel.Email) && !string.IsNullOrEmpty(loginViewModel.Senha))
             {
                 var usuario = await _context.Usuario
                     .FirstOrDefaultAsync(u => u.Email == loginViewModel.Email);
 
                 if (usuario != null && BCrypt.Net.BCrypt.Verify(loginViewModel.Senha, usuario.Senha))
                 {
-                    // Login bem-sucedido
                     await SignInUser(usuario);
                     return RedirectToAction(nameof(Index));
                 }
-
-                ModelState.AddModelError(string.Empty, "Email ou senha inválidos.");
+                else
+                {
+                    TempData["ErrorMessage"] = "Email ou senha inválidos.";
+                }
             }
+            else
+            {
+                TempData["ErrorMessage"] = "Por favor, insira e-mail e senha.";
+                
+
+            }
+
+            //if (ModelState.IsValid)
+            //{
+            //    var usuario = await _context.Usuario
+            //        .FirstOrDefaultAsync(u => u.Email == loginViewModel.Email);
+
+            //    if (usuario != null && BCrypt.Net.BCrypt.Verify(loginViewModel.Senha, usuario.Senha))
+            //    {
+            //        // Login bem-sucedido
+            //        await SignInUser(usuario);
+            //        return RedirectToAction(nameof(Index));
+            //    }
+
+            //    ModelState.AddModelError(string.Empty, "Email ou senha inválidos.");
+            //}
 
             return View(loginViewModel);
         }
