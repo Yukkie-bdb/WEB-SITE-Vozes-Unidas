@@ -36,8 +36,19 @@ namespace WebSiteVozesUnidas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(UsuarioViewModel usuarioViewModel)
         {
+            
+
             if (ModelState.IsValid)
             {
+                foreach (var item in _context.Usuario.ToList())
+                {
+                    if (usuarioViewModel.Email == item.Email)
+                    {
+                        ViewData["Mensagem"] = "Esse email já está cadastrado.";
+                        return View(usuarioViewModel);
+                    }
+                }
+
                 Usuario usuario;
 
                 if (usuarioViewModel.Tipo == UsuarioTipo.Empresa)
@@ -167,6 +178,7 @@ namespace WebSiteVozesUnidas.Controllers
                 IdUsuario = usuario.IdUsuario,
                 Nome = usuario.Nome,
                 Email = usuario.Email,
+                ImagemPerfil = usuario.ImagemPerfil,
                 Senha = usuario.Senha,
                 Tipo = usuario.Tipo,
                 Cnpj = (usuario as Empresa)?.Cnpj,
@@ -200,6 +212,7 @@ namespace WebSiteVozesUnidas.Controllers
                     empresa.Nome = usuarioViewModel.Nome;
                     empresa.Email = usuarioViewModel.Email;
                     empresa.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha);
+                    empresa.ImagemPerfil = usuarioViewModel.ImagemPerfil;
                     empresa.Cnpj = usuarioViewModel.Cnpj;
                     empresa.Telefone = usuarioViewModel.Telefone;
                     empresa.Descricao = usuarioViewModel.Descricao;
@@ -207,6 +220,7 @@ namespace WebSiteVozesUnidas.Controllers
                 else if (usuarioViewModel.Tipo == UsuarioTipo.Candidato && usuario is Candidato candidato)
                 {
                     candidato.Nome = usuarioViewModel.Nome;
+                    candidato.ImagemPerfil = usuarioViewModel.ImagemPerfil;
                     candidato.Email = usuarioViewModel.Email;
                     candidato.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha);
                     candidato.Cpf = usuarioViewModel.Cpf;
@@ -241,6 +255,7 @@ namespace WebSiteVozesUnidas.Controllers
                 Email = usuario.Email,
                 Senha = usuario.Senha,
                 Tipo = usuario.Tipo,
+                ImagemPerfil = usuario.ImagemPerfil,
                 Cnpj = (usuario as Empresa)?.Cnpj,
                 Telefone = (usuario as Empresa)?.Telefone,
                 Descricao = (usuario as Empresa)?.Descricao,

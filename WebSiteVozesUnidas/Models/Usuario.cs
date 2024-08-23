@@ -8,6 +8,7 @@ namespace WebSiteVozesUnidas.Models
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
+        public string? ImagemPerfil { get; set; }
         public UsuarioTipo Tipo { get; set; }
         public IEnumerable<Noticia>? Noticias { get; set; }
         public IEnumerable<AvaliacaoEspecialhista>? AvaliacoesEspecialhistas { get; set; }

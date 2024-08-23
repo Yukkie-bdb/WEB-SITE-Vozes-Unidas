@@ -17,267 +17,267 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebSiteVozesUnidas
 build_property.RootNamespace = WebSiteVozesUnidas
-build_property.ProjectDir = C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\
+build_property.ProjectDir = C:\Users\SENAI3EM\Desktop\RepositorioBao\Projetao\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas
+build_property.MSBuildProjectDirectory = C:\Users\SENAI3EM\Desktop\RepositorioBao\Projetao\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/AvaliacaoEspecialhistas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhTWF0ZXJpYWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhTWF0ZXJpYWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhTWF0ZXJpYWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhTWF0ZXJpYWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaMaterials/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhTWF0ZXJpYWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CategoriaPosts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Comentarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZW50YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxoaXN0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxoaXN0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxoaXN0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxoaXN0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Especialhistas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxoaXN0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Privacy.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxEaWRhdGljb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxEaWRhdGljb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxEaWRhdGljb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxEaWRhdGljb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/MaterialDidatico/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxEaWRhdGljb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Noticias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/Error.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Login.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Register.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Usuarios/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Create.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYUVtcHJlZ29lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Delete.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYUVtcHJlZ29lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Details.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYUVtcHJlZ29lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Edit.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYUVtcHJlZ29lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Index.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/VagaEmpregoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYUVtcHJlZ29lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewImports.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewStart.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_Layout.cshtml]
+[C:/Users/SENAI3EM/Desktop/RepositorioBao/Projetao/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jf2k8n1bpa

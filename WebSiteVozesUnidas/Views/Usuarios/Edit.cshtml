@@ -33,6 +33,13 @@
         <span asp-validation-for="Tipo" class="text-danger"></span>
     </div>
 
+    <div class="form-group">
+        <img src="~/img/@Model.ImagemPerfil" alt="Imagem do perfil" style="max-width: 100px; height: auto;" />
+        <label asp-for="ImagemPerfil"></label>
+        <input asp-for="ImagemPerfil" type="file" class="form-control" value="@Model.ImagemPerfil" />
+        <span asp-validation-for="ImagemPerfil" class="text-danger"></span>
+    </div>
+
     <div id="empresaFields" style="display:@(Model.Tipo == UsuarioTipo.Empresa ? "block" : "none")">
         <div class="form-group">
             <label asp-for="Cnpj"></label>

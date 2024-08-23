@@ -544,6 +544,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
@@ -559,6 +575,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg))">
       <SourceType>Package</SourceType>
@@ -735,6 +767,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\imgper.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/imgper.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\imgper.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js))">
       <SourceType>Package</SourceType>
