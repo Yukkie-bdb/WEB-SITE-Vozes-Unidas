@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BaEP56zAi6NUzqYpELSFAWkflDh4+od1pnAqtznngTE=",
+  "Hash": "MF0+yI05dWxB1jwaIMcT8ODenIJVlGoueY8c5n1F/9Y=",
   "Source": "WebSiteVozesUnidas",
   "BasePath": "_content/WebSiteVozesUnidas",
   "Mode": "Default",
@@ -2069,6 +2069,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg"
+    },
+    {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
@@ -2238,6 +2257,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png"
+    },
+    {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg"
     },
     {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",

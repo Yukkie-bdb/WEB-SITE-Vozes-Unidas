@@ -22,42 +22,60 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
+                        @* <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        </li> *@
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="index">Contas</a>
                         </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Noticias" asp-action="index">Noticias</a>
                         </li>
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="AvaliacaoEspecialhistas" asp-action="index">Especialhistas</a>
                         </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="MaterialDidatico" asp-action="index">Material Didatico</a>
                         </li>
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="CategoriaMaterials" asp-action="index">Categorias de Materiais</a>
                         </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Especialhistas" asp-action="index">Somelies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="index">Posts</a>
                         </li>
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Comentarios" asp-action="index">Comentarios</a>
                         </li>
+                        }
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="CategoriaPosts" asp-action="index">CategoriaPosts</a>
                         </li>
-                         <li class="nav-item">
+                        }
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="VagaEmpregoes" asp-action="index">Vagas</a>
                         </li>
+                        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="CandidaturaVagampregoes" asp-action="index">Candidatos</a>
                         </li>
+                        }
                     </ul>
 
                     @{
