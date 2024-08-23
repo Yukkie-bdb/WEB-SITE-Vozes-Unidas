@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "bMoEH8QmtoCHXel3vUJ1EaOKRVDL4toV3geJXDwYiOI=",
-=======
-  "Hash": "MF0+yI05dWxB1jwaIMcT8ODenIJVlGoueY8c5n1F/9Y=",
->>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
+  "Hash": "Qr1O2xPLypeGSjUv459igUS8ExIKOk9Y3yPEFcTW1/Q=",
   "Source": "WebSiteVozesUnidas",
   "BasePath": "_content/WebSiteVozesUnidas",
   "Mode": "Default",
@@ -14,7 +10,7 @@
     {
       "Name": "WebSiteVozesUnidas\\wwwroot",
       "Source": "WebSiteVozesUnidas",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "Pattern": "**"
     }
@@ -24,7 +20,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -43,7 +39,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.css.map",
       "AssetKind": "All",
@@ -62,7 +58,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -81,7 +77,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -100,7 +96,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -119,7 +115,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -138,7 +134,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -157,7 +153,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -176,7 +172,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -195,7 +191,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -214,7 +210,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -233,7 +229,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -252,7 +248,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -271,7 +267,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -290,7 +286,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -309,7 +305,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -328,7 +324,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -347,7 +343,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -366,7 +362,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -385,7 +381,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -404,7 +400,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -423,7 +419,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -442,7 +438,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -461,7 +457,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -480,7 +476,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -499,7 +495,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -518,7 +514,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -537,7 +533,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -556,7 +552,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -575,7 +571,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -594,7 +590,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -613,7 +609,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -632,7 +628,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -651,7 +647,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -670,7 +666,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -689,7 +685,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -708,7 +704,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -727,7 +723,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -746,7 +742,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,7 +761,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -784,7 +780,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -803,7 +799,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.js.map",
       "AssetKind": "All",
@@ -822,7 +818,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -841,7 +837,7 @@
       "Identity": "C:\\Users\\SENAI3EM\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1997,10 +1993,10 @@
       "OriginalItemSpec": "C:\\Users\\SENAI3EM\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteVozesUnidas.styles.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteVozesUnidas.styles.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "WebSiteVozesUnidas.styles.css",
       "AssetKind": "All",
@@ -2013,13 +2009,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteVozesUnidas.styles.css"
+      "OriginalItemSpec": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebSiteVozesUnidas.styles.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "WebSiteVozesUnidas.bundle.scp.css",
       "AssetKind": "All",
@@ -2032,13 +2028,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebSiteVozesUnidas.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\css\\site.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2054,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\favicon.ico",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2073,9 +2069,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg",
-=======
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
@@ -2095,11 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
->>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg",
       "AssetKind": "All",
@@ -2115,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\img\\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
       "AssetKind": "All",
@@ -2134,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg",
       "AssetKind": "All",
@@ -2153,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\img\\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg",
       "AssetKind": "All",
@@ -2172,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png",
       "AssetKind": "All",
@@ -2191,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\img\\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png",
       "AssetKind": "All",
@@ -2210,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\img\\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png",
       "AssetKind": "All",
@@ -2229,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png",
       "AssetKind": "All",
@@ -2248,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\img\\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg",
       "AssetKind": "All",
@@ -2267,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\img\\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png",
       "AssetKind": "All",
@@ -2286,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\img\\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png",
       "AssetKind": "All",
@@ -2305,9 +2297,6 @@
       "OriginalItemSpec": "wwwroot\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
-=======
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
@@ -2328,10 +2317,9 @@
     },
     {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
->>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
       "AssetKind": "All",
@@ -2347,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4",
       "AssetKind": "All",
@@ -2366,10 +2354,29 @@
       "OriginalItemSpec": "wwwroot\\img\\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg",
       "AssetKind": "All",
@@ -2385,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\imgper.png",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\imgper.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "img/imgper.png",
       "AssetKind": "All",
@@ -2404,10 +2411,29 @@
       "OriginalItemSpec": "wwwroot\\img\\imgper.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\LOGO.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/LOGO.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\LOGO.png"
+    },
+    {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\js\\site.js",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2423,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2442,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2461,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2480,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2518,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2537,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2556,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2575,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2594,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2613,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2632,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2651,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2670,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2689,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2708,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2727,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2746,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2765,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2784,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2803,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2822,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2841,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2860,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2879,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2898,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2917,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2936,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2955,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2974,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2993,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3012,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3031,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3050,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3069,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3088,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3107,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3126,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3145,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3164,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3183,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3202,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3221,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3240,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3259,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3278,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3297,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3316,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3335,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3354,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3373,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3392,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3411,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3430,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3449,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3468,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3487,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
       "BasePath": "_content/WebSiteVozesUnidas",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

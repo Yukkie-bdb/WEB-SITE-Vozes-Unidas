@@ -15,10 +15,12 @@ namespace WebSiteVozesUnidas.Controllers
     public class UsuariosController : Controller
     {
         private readonly VozesDbContext _context;
+        private string _caminho;
 
-        public UsuariosController(VozesDbContext context)
+        public UsuariosController(VozesDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            _caminho = hostEnvironment.WebRootPath;
         }
 
         public async Task<IActionResult> Index()
@@ -34,7 +36,7 @@ namespace WebSiteVozesUnidas.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(UsuarioViewModel usuarioViewModel)
+        public async Task<IActionResult> Register(UsuarioViewModel usuarioViewModel, IFormFile imgUp)
         {
             
 
@@ -77,6 +79,27 @@ namespace WebSiteVozesUnidas.Controllers
                         Cpf = usuarioViewModel.Cpf
                     };
                 }
+
+                if (imgUp != null && imgUp.Length > 0)
+                {
+                    string uploadsFolder = Path.Combine(_caminho, "img");
+
+                    if (!Directory.Exists(uploadsFolder))
+                    {
+                        Directory.CreateDirectory(uploadsFolder);
+                    }
+
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + imgUp.FileName;
+
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imgUp.CopyToAsync(fileStream);
+                    }
+                     usuario.ImagemPerfil = uniqueFileName;
+                }
+
 
                 _context.Usuario.Add(usuario);
                 await _context.SaveChangesAsync();
@@ -153,6 +176,7 @@ namespace WebSiteVozesUnidas.Controllers
                 new Claim(ClaimTypes.Email, usuario.Email),
                 new Claim("UsuarioId", usuario.IdUsuario.ToString()),
                 new Claim("UsuarioTipo", usuario.Tipo.ToString())
+                
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

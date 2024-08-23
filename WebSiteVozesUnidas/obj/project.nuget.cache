@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XUUNS3PKJVwGCRc/Hx1b+2IH4K4PWpdlboz61rftewfl5InEfrmLw2khjJ5iE9zA/RGVjnRP6CruP2SRMGg5KQ==",
+  "dgSpecHash": "7IcoL+EBMko=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+  "projectFilePath": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
