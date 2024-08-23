@@ -185,6 +185,26 @@ namespace WebSiteVozesUnidas.Controllers
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var noticia = await _context.Noticia.FindAsync(id);
+
+            if (noticia.ImgCapa != null && noticia.ImgCapa.Length > 0)
+            {
+                string uploadsFolder = Path.Combine(_caminho, "img");
+
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                string filePath = Path.Combine(uploadsFolder, noticia.ImgCapa);
+
+                noticia.ImgCapa = filePath;
+
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+            }
+
             if (noticia != null)
             {
                 _context.Noticia.Remove(noticia);

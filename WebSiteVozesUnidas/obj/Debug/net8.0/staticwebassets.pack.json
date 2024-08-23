@@ -189,11 +189,19 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg",
       "PackagePath": "staticwebassets\\img\\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
+=======
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg",
+      "PackagePath": "staticwebassets\\img\\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg",
+>>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
       "PackagePath": "staticwebassets\\img\\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg"
     },
     {
@@ -233,7 +241,15 @@
       "PackagePath": "staticwebassets\\img\\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
+=======
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg",
+      "PackagePath": "staticwebassets\\img\\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg",
+>>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
       "PackagePath": "staticwebassets\\img\\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg"
     },
     {

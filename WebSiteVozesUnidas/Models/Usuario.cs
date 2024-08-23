@@ -23,7 +23,8 @@ namespace WebSiteVozesUnidas.Models
     public enum UsuarioTipo
     {
         Empresa,
-        Candidato
+        Candidato,
+        Admin
     }
 
     /////

@@ -27,10 +27,16 @@
     </div>
     <div class="form-group">
         <label asp-for="Tipo"></label>
+<<<<<<< HEAD
         <select asp-for="Tipo" class="form-control">
             <option value="" >Selecione</option>
             <option value="Empresa">Empresa</option>
+=======
+        <select asp-for="Tipo" class="form-control" id="tipoUsuario">
+            <option value="">Selecione o tipo</option>
+>>>>>>> 61704b3053298678248ddf70f4d5ef55ebe5a27c
             <option value="Candidato">Candidato</option>
+            <option value="Empresa">Empresa</option>
         </select>
         <span asp-validation-for="Tipo" class="text-danger"></span>
     </div>
@@ -63,10 +69,19 @@
 
 @section Scripts {
     <script>
-        document.querySelector('select[name="Tipo"]').addEventListener('change', function () {
-            var tipo = this.value;
-            document.getElementById('empresaFields').style.display = (tipo === 'Empresa') ? 'block' : 'none';
-            document.getElementById('candidatoFields').style.display = (tipo === 'Candidato') ? 'block' : 'none';
+        $(document).ready(function () {
+            $('#tipoUsuario').change(function () {
+                var selectedType = $(this).val();
+                if (selectedType === 'Empresa') {
+                    $('#empresaFields').show();
+                    $('#candidatoFields').hide();
+                } else if (selectedType === 'Candidato') {
+                    $('#candidatoFields').show();
+                    $('#empresaFields').hide();
+                } else {
+                    $('#empresaFields, #candidatoFields').hide();
+                }
+            }).change(); // Trigger change event on page load
         });
     </script>
 }
