@@ -544,12 +544,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg</RelativePath>
+      <RelativePath>img/b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -558,14 +558,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\0f0a8720-bdad-48f9-af52-054394c5a980_download.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg</RelativePath>
+      <RelativePath>img/d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -574,263 +574,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\16880359-caf5-4fa0-a7ef-fd37ba7ce03b_51zpXNOadrL._SY580_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\174b28b7-f848-4d84-8307-356740167c08_blog-tipos-de-condutores-eletricos-diferencas-e-funcionalidades.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\21580ec8-6fbd-4156-bbc2-4f0a8e2eb80f_51zpXNOadrL._SY580_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\33a8c8cc-497e-4772-a9d1-e4b192ab7c51_download.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6af81fb8-8515-4f6b-9f99-fd9c82bd0e9f_Captura de tela 2024-08-09 134852.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6ff30f51-3bc6-4b93-b562-08eb36a60203_Captura de tela 2024-08-09 134852.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\724e7b21-f55a-4635-b9be-5762a7e92459_Logotipo Borcelle Supermercados Criativo Vermelho Azul Branco.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\7b36f09f-b013-4bc6-b448-8bf8be534d02_image (5).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\823af837-d053-4cd3-8b89-1e75c48a03ce_Logo Hot Dog Retrô Bege (1).jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\9c27d05c-cb6f-459b-82c1-994d0a60e3d6_LOGO.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a2ec543d-864e-4f6d-a14e-58cf98cf5683_Captura de tela 2024-06-06 180310.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b32d5d19-fd2c-4267-9e81-dd211e5b29de_download.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b3e324ab-221a-4773-a17e-fe7fea6b7816_download.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b7760e4c-e6a3-47da-9477-d1d1288c0d18_rFvPPzAH4C5pEwbc.mp4))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\c3e07713-4d28-4091-b3fd-f6be15182ccb_download.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\dcc963de-3fa3-4a36-a422-8a064abba059_Logo Hot Dog Retrô Bege (1).jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\imgper.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>WebSiteVozesUnidas</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/imgper.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\imgper.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\LOGO.png))">
       <SourceType>Package</SourceType>

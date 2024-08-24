@@ -6,7 +6,7 @@
 
 <h1>Editar Conta</h1>
 
-<form asp-action="Edit">
+<form asp-action="Edit" enctype="multipart/form-data">
     <input type="hidden" asp-for="IdUsuario" />
 
     <div class="form-group">
@@ -35,8 +35,8 @@
 
     <div class="form-group">
         <img src="~/img/@Model.ImagemPerfil" alt="Imagem do perfil" style="max-width: 100px; height: auto;" />
-        <label asp-for="ImagemPerfil"></label>
-        <input asp-for="ImagemPerfil" type="file" class="form-control" value="@Model.ImagemPerfil" />
+        <label asp-for="ImagemPerfil" ></label>
+        <input asp-for="ImagemPerfil" type="file" class="form-control" value="@Model.ImagemPerfil" name="ImgUp" />
         <span asp-validation-for="ImagemPerfil" class="text-danger"></span>
     </div>
 

@@ -9,6 +9,7 @@ using System.Security.Claims;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Tls;
 using Microsoft.AspNetCore.Identity;
+using System.IO;
 
 namespace WebSiteVozesUnidas.Controllers
 {
@@ -38,7 +39,7 @@ namespace WebSiteVozesUnidas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(UsuarioViewModel usuarioViewModel, IFormFile imgUp)
         {
-            
+
 
             if (ModelState.IsValid)
             {
@@ -97,7 +98,7 @@ namespace WebSiteVozesUnidas.Controllers
                     {
                         await imgUp.CopyToAsync(fileStream);
                     }
-                     usuario.ImagemPerfil = uniqueFileName;
+                    usuario.ImagemPerfil = uniqueFileName;
                 }
 
 
@@ -140,24 +141,9 @@ namespace WebSiteVozesUnidas.Controllers
             else
             {
                 TempData["ErrorMessage"] = "Por favor, insira e-mail e senha.";
-                
+
 
             }
-
-            //if (ModelState.IsValid)
-            //{
-            //    var usuario = await _context.Usuario
-            //        .FirstOrDefaultAsync(u => u.Email == loginViewModel.Email);
-
-            //    if (usuario != null && BCrypt.Net.BCrypt.Verify(loginViewModel.Senha, usuario.Senha))
-            //    {
-            //        // Login bem-sucedido
-            //        await SignInUser(usuario);
-            //        return RedirectToAction(nameof(Index));
-            //    }
-
-            //    ModelState.AddModelError(string.Empty, "Email ou senha inválidos.");
-            //}
 
             return View(loginViewModel);
         }
@@ -175,8 +161,9 @@ namespace WebSiteVozesUnidas.Controllers
                 new Claim(ClaimTypes.Name, usuario.Nome),
                 new Claim(ClaimTypes.Email, usuario.Email),
                 new Claim("UsuarioId", usuario.IdUsuario.ToString()),
-                new Claim("UsuarioTipo", usuario.Tipo.ToString())
-                
+                new Claim("UsuarioTipo", usuario.Tipo.ToString()),
+                new Claim("ImagemPerfil", usuario.ImagemPerfil.ToString()),
+
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -216,21 +203,54 @@ namespace WebSiteVozesUnidas.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, UsuarioViewModel usuarioViewModel)
+        public async Task<IActionResult> Edit(Guid id, UsuarioViewModel usuarioViewModel, IFormFile imgUp)
         {
             if (id != usuarioViewModel.IdUsuario)
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
+            // Verifica se já existe uma imagem associada ao usuário
+            var usuario = await _context.Usuario.FindAsync(id);
+            if (usuario == null)
             {
-                var usuario = _context.Usuario.Find(id);
-                if (usuario == null)
+                return NotFound();
+            }
+
+            // Se houver uma ImagemPerfil existente, excluí-la
+            if (!string.IsNullOrEmpty(usuario.ImagemPerfil))
+            {
+                string existingFilePath = Path.Combine(_caminho, "img", usuario.ImagemPerfil);
+                if (System.IO.File.Exists(existingFilePath))
                 {
-                    return NotFound();
+                    System.IO.File.Delete(existingFilePath);
+                }
+            }
+            // Se uma nova imagem foi carregada, salvar a nova imagem
+
+            if (imgUp != null && imgUp.Length > 0)
+            {
+                string uploadsFolder = Path.Combine(_caminho, "img");
+
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
                 }
 
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + imgUp.FileName;
+
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imgUp.CopyToAsync(fileStream);
+                }
+                usuarioViewModel.ImagemPerfil = uniqueFileName;
+            }
+
+
+            // Atualiza as informações do usuário
+            if (ModelState.IsValid)
+            {
                 if (usuarioViewModel.Tipo == UsuarioTipo.Empresa && usuario is Empresa empresa)
                 {
                     empresa.Nome = usuarioViewModel.Nome;
@@ -244,22 +264,24 @@ namespace WebSiteVozesUnidas.Controllers
                 else if (usuarioViewModel.Tipo == UsuarioTipo.Candidato && usuario is Candidato candidato)
                 {
                     candidato.Nome = usuarioViewModel.Nome;
-                    candidato.ImagemPerfil = usuarioViewModel.ImagemPerfil;
                     candidato.Email = usuarioViewModel.Email;
                     candidato.Senha = BCrypt.Net.BCrypt.HashPassword(usuarioViewModel.Senha);
+                    candidato.ImagemPerfil = usuarioViewModel.ImagemPerfil;
                     candidato.Cpf = usuarioViewModel.Cpf;
                 }
                 else
                 {
                     ModelState.AddModelError("", "Tipo de usuário inválido.");
+                    await SignInUser(usuario);
                     return View(usuarioViewModel);
                 }
 
                 _context.Update(usuario);
+                await SignInUser(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-
+            await SignInUser(usuario);
             return View(usuarioViewModel);
         }
 

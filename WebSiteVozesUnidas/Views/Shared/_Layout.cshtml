@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -81,12 +82,14 @@
                     </ul>
 
                     @{
-                        var userName = User.Identity.IsAuthenticated ? User.Identity.Name : "Visitante";
+                        var claimsIdentity = User.Identity as ClaimsIdentity;
+                        var userName2 = claimsIdentity?.FindFirst(ClaimTypes.Name)?.Value;
+                        var userImage = claimsIdentity?.FindFirst("ImagemPerfil")?.Value;
+                    
                     }
 
                     <div class="d-flex">
-                        <img src="" alt="Imagem Usuario" />
-                        <p>Olá, @userName!</p>
+                        <img src="~/img/@userImage" alt="@userImage" style="height:8vh"/>
                         <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                     </div>
 
