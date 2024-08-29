@@ -544,12 +544,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6e41bcbc-a54b-457e-bbd8-043941a77e77_Captura de tela 2024-05-23 140729.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png</RelativePath>
+      <RelativePath>img/6e41bcbc-a54b-457e-bbd8-043941a77e77_Captura de tela 2024-05-23 140729.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -558,14 +558,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\b07d100e-0da6-40a3-9b5b-58274861f2c8_IMG_1317.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\6e41bcbc-a54b-457e-bbd8-043941a77e77_Captura de tela 2024-05-23 140729.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\764ce0b0-b7fd-4aab-8559-b29fa2341259_Captura de tela 2024-04-28 194616.png))">
       <SourceType>Package</SourceType>
       <SourceId>WebSiteVozesUnidas</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebSiteVozesUnidas</BasePath>
-      <RelativePath>img/d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC</RelativePath>
+      <RelativePath>img/764ce0b0-b7fd-4aab-8559-b29fa2341259_Captura de tela 2024-04-28 194616.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -574,7 +574,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\d3a1458f-c766-4990-bd97-c0abf0d71025_IMG_1317.HEIC))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\764ce0b0-b7fd-4aab-8559-b29fa2341259_Captura de tela 2024-04-28 194616.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a0b88c73-fec2-499e-b356-237c64fd39b6_Captura de tela 2024-01-26 075419.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/a0b88c73-fec2-499e-b356-237c64fd39b6_Captura de tela 2024-01-26 075419.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\a0b88c73-fec2-499e-b356-237c64fd39b6_Captura de tela 2024-01-26 075419.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\LOGO.png))">
       <SourceType>Package</SourceType>
@@ -591,6 +607,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\LOGO.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\person.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebSiteVozesUnidas</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebSiteVozesUnidas</BasePath>
+      <RelativePath>img/person.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\person.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.bundle.js))">
       <SourceType>Package</SourceType>
