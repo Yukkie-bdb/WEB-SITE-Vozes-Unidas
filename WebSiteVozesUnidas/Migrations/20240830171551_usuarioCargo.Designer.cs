@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebSiteVozesUnidas.Data;
 
@@ -11,9 +12,11 @@ using WebSiteVozesUnidas.Data;
 namespace WebSiteVozesUnidas.Migrations
 {
     [DbContext(typeof(VozesDbContext))]
-    partial class VozesDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240830171551_usuarioCargo")]
+    partial class usuarioCargo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,22 +51,6 @@ namespace WebSiteVozesUnidas.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("tbAvaliacaoEspecialhista", (string)null);
-                });
-
-            modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidatoJornalista", b =>
-                {
-                    b.Property<Guid>("IdCandidatoJornalista")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("CandidatoId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("IdCandidatoJornalista");
-
-                    b.HasIndex("CandidatoId");
-
-                    b.ToTable("tbCandidatoJornalista", (string)null);
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidaturaVagamprego", b =>
@@ -273,6 +260,9 @@ namespace WebSiteVozesUnidas.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("Cargo")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -333,9 +323,6 @@ namespace WebSiteVozesUnidas.Migrations
                 {
                     b.HasBaseType("WebSiteVozesUnidas.Models.Usuario");
 
-                    b.Property<int>("Cargo")
-                        .HasColumnType("int");
-
                     b.Property<string>("Cpf")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -379,17 +366,6 @@ namespace WebSiteVozesUnidas.Migrations
                     b.Navigation("Especialhista");
 
                     b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidatoJornalista", b =>
-                {
-                    b.HasOne("WebSiteVozesUnidas.Models.Candidato", "Candidato")
-                        .WithMany("CandidatoJornalistas")
-                        .HasForeignKey("CandidatoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Candidato");
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidaturaVagamprego", b =>
@@ -540,8 +516,6 @@ namespace WebSiteVozesUnidas.Migrations
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Candidato", b =>
                 {
-                    b.Navigation("CandidatoJornalistas");
-
                     b.Navigation("CandidaturaVagampregos");
                 });
 

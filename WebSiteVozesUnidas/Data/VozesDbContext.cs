@@ -21,6 +21,7 @@ namespace WebSiteVozesUnidas.Data
         public DbSet<CategoriaPost> CategoriaPost { get; set; }
         public DbSet<VagaEmprego> VagaEmprego { get; set; }
         public DbSet<CandidaturaVagamprego> CandidaturaVagampregos { get; set; }
+        public DbSet<CandidatoJornalista> CandidatoJornalistas { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -66,6 +67,10 @@ namespace WebSiteVozesUnidas.Data
             modelBuilder.Entity<Comentario>()
                 .ToTable("tbComentario")
                 .HasKey(u => u.IdComentario);
+
+            modelBuilder.Entity<CandidatoJornalista>()
+                .ToTable("tbCandidatoJornalista")
+                .HasKey(u => u.IdCandidatoJornalista);
 
             modelBuilder.Entity<Post>()
                .HasOne(p => p.Usuario)

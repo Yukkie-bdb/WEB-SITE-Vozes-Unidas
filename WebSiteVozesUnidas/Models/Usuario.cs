@@ -26,6 +26,11 @@ namespace WebSiteVozesUnidas.Models
         Candidato,
         Admin
     }
+    public enum UsuarioCargo
+    {
+        Padrao,
+        Jornalista
+    }
 
     /////
 
@@ -42,7 +47,9 @@ namespace WebSiteVozesUnidas.Models
     public class Candidato : Usuario
     {
         public string Cpf { get; set; }
+        public UsuarioCargo Cargo { get; set; }
         public IEnumerable<CandidaturaVagamprego>? CandidaturaVagampregos { get; set; }
+        public IEnumerable<CandidatoJornalista>? CandidatoJornalistas { get; set; }
 
 
     }

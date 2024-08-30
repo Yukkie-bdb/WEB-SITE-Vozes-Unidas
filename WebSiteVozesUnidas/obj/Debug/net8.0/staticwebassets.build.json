@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ofvtKpBXVObuEkT6uayB66gkHRjDCWt/dVPu5bSXHl0=",
+  "Hash": "9y4PVcVgrgqcXhjLG5R7ZDM2P8GUkakvaLzccAJ3iAE=",
   "Source": "WebSiteVozesUnidas",
   "BasePath": "_content/WebSiteVozesUnidas",
   "Mode": "Default",
@@ -2107,6 +2107,25 @@
       "OriginalItemSpec": "wwwroot\\img\\20362c7a-60a9-4f2f-a937-d4fbef3df02e_Captura de tela 2024-01-26 075419.png"
     },
     {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\519f42af-4766-409c-b24a-345680d8d10f_Captura de tela 2024-01-26 111454.png",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/519f42af-4766-409c-b24a-345680d8d10f_Captura de tela 2024-01-26 111454.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\519f42af-4766-409c-b24a-345680d8d10f_Captura de tela 2024-01-26 111454.png"
+    },
+    {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\63a063eb-f77c-4c04-8c6b-0eb07c07a1f7_Captura de tela 2024-01-26 075419.png",
       "SourceId": "WebSiteVozesUnidas",
       "SourceType": "Discovered",
@@ -2143,25 +2162,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\64adcf6b-5e48-409d-9d55-b97fd27872fa_Captura de tela 2024-01-26 130858.png"
-    },
-    {
-      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\67e8593f-b049-4ff6-84fa-f9623f6aa831_Captura de tela 2024-01-26 111454.png",
-      "SourceId": "WebSiteVozesUnidas",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
-      "BasePath": "_content/WebSiteVozesUnidas",
-      "RelativePath": "img/67e8593f-b049-4ff6-84fa-f9623f6aa831_Captura de tela 2024-01-26 111454.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\67e8593f-b049-4ff6-84fa-f9623f6aa831_Captura de tela 2024-01-26 111454.png"
     },
     {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\6af28e82-1865-4ae5-b793-5b3373b1bfe1_Captura de tela 2024-01-26 075419.png",
@@ -2276,6 +2276,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\da93122c-b095-4241-a302-5d1ee0cadce4_Captura de tela 2024-01-26 111454.png"
+    },
+    {
+      "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\e1aad041-7a3e-476d-8d70-207700869d1f_Captura de tela 2024-01-26 130858.png",
+      "SourceId": "WebSiteVozesUnidas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\",
+      "BasePath": "_content/WebSiteVozesUnidas",
+      "RelativePath": "img/e1aad041-7a3e-476d-8d70-207700869d1f_Captura de tela 2024-01-26 130858.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e1aad041-7a3e-476d-8d70-207700869d1f_Captura de tela 2024-01-26 130858.png"
     },
     {
       "Identity": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\LOGO.png",

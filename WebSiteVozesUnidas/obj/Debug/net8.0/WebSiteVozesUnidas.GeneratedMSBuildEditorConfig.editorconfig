@@ -46,6 +46,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvRXNwZWNpYWxoaXN0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidatoJornalistas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvSm9ybmFsaXN0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidatoJornalistas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvSm9ybmFsaXN0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidatoJornalistas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvSm9ybmFsaXN0YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidatoJornalistas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvSm9ybmFsaXN0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidatoJornalistas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvSm9ybmFsaXN0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SENAI3EM/source/repos/WEB-SITE-Vozes-Unidas/WebSiteVozesUnidas/Views/CandidaturaVagampregoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXR1cmFWYWdhbXByZWdvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
