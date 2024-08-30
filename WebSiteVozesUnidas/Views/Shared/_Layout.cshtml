@@ -88,11 +88,20 @@
                     
                     }
 
-
+                    @if (User.Identity.IsAuthenticated)
+                    {
                     <!-- Button trigger modal -->
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img src="~/img/@userImage" alt="@userImage" class="rounded-circle" style="width: 8vh; height: 8vh; object-fit: cover;" />
-                    </button>
+                        </button>
+                    }else{
+                        <button type="button" class="btn">
+                            <a class="nav-link text-dark m-0 p-0" asp-area="" asp-controller="Usuarios" asp-action="Logout">
+                            <img src="~/img/@userImage" alt="@userImage" class="rounded-circle" style="width: 8vh; height: 8vh; object-fit: cover;"/>
+                            </a>
+                        </button>           
+                    }
+
 
                     <!-- First Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -116,7 +125,9 @@
                                     <span>@userName2</span>
                                 </div>
                                 <div class="modal-footer border-0 justify-content-center d-flex flex-column">
-                                    <button type="button" class="btn btn-primary px-5">Visitar Perfil</button>
+                                    <button type="button" class="btn btn-primary px-5">
+                                            <a class="nav-link text-white m-0 p-0" asp-area="" asp-controller="Usuarios" asp-action="Index">Visitar Perfil</a>
+                                        </button>
                                     <button type="button" class="btn border border-dark">
                                             <a class="nav-link text-dark m-0 p-0" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                                     </button>

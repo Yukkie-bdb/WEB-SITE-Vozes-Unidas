@@ -29,6 +29,10 @@ namespace WebSiteVozesUnidas.Controllers
             var usuarios = _context.Usuario.ToList();
             return View(usuarios);
         }
+        public async Task<IActionResult> PefilUsuario()
+        {
+            return View();
+        }
 
         public IActionResult Register()
         {
@@ -190,7 +194,6 @@ namespace WebSiteVozesUnidas.Controllers
                 Nome = usuario.Nome,
                 Email = usuario.Email,
                 ImagemPerfil = usuario.ImagemPerfil,
-                Senha = usuario.Senha,
                 Tipo = usuario.Tipo,
                 Cnpj = (usuario as Empresa)?.Cnpj,
                 Telefone = (usuario as Empresa)?.Telefone,
@@ -272,11 +275,14 @@ namespace WebSiteVozesUnidas.Controllers
                 else
                 {
                     ModelState.AddModelError("", "Tipo de usuário inválido.");
-                    await SignInUser(usuario);
+                    //await SignInUser(usuario);
                     return View(usuarioViewModel);
                 }
 
                 _context.Update(usuario);
+                //var claimsIdentity = User.Identity as ClaimsIdentity;
+                //var userId = claimsIdentity?.FindFirst("UserId")?.Value;
+                //if (id == Guid.Parse(userId))
                 await SignInUser(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
