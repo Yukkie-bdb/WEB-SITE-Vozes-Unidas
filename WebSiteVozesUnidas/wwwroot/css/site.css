@@ -18,5 +18,72 @@ html {
 }
 
 body {
+    margin-bottom: 60px;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+}
+
+.borda {
+    border: 2px solid black;
+    padding: 5px;
+    border-end-start-radius: 35px;
+    border-start-end-radius: 35px;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.imagem {
+    height: 200px;
+    border-end-start-radius: 55px;
+    border-start-end-radius: 55px;
+
+}
+
+.tudo {
+    text-align:center;
+}
+
+.bordafinal {
+    margin-bottom: 60px;
+    border: 2px solid black;
+    padding: 5px;
+    border-start-start-radius: 35px;
+    border-end-end-radius: 35px;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
   margin-bottom: 60px;
+}
+
+.malala {
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3 {
+    font-weight:bold;
+    margin-bottom: 10px;
 }

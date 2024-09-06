@@ -12,7 +12,7 @@
 </head>
 <body style="font-family:'Inter'">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
             <div class="container-fluid">
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/img/LOGO.png" style="height:8vh" alt="Logo" />
@@ -155,11 +155,9 @@
             </div>
         </nav>
     </header>
-    <div>
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
-    </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
