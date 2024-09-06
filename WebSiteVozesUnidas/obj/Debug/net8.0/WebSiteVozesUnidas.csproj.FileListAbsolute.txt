@@ -1316,7 +1316,6 @@ C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debu
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\scopedcss\bundle\WebSiteVozesUnidas.styles.css
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\scopedcss\projectbundle\WebSiteVozesUnidas.bundle.scp.css
-C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteV.52501955.Up2Date
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.dll
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\refint\WebSiteVozesUnidas.dll
 C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.pdb
@@ -1591,3 +1590,5 @@ C:\Users\SENAI3EM\Desktop\RepositorioBao\Projetao\WEB-SITE-Vozes-Unidas\WebSiteV
 C:\Users\SENAI3EM\Desktop\RepositorioBao\Projetao\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\ref\WebSiteVozesUnidas.dll
 C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Eric\Desktop\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\SENAI3EM\source\repos\WEB-SITE-Vozes-Unidas\WebSiteVozesUnidas\obj\Debug\net8.0\WebSiteVozesUnidas.csproj.CopyComplete

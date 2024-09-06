@@ -189,12 +189,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\01.jpg",
+      "PackagePath": "staticwebassets\\img\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\02.jpeg",
+      "PackagePath": "staticwebassets\\img\\02.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\03.png",
+      "PackagePath": "staticwebassets\\img\\03.png"
+    },
+    {
       "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\06b40593-c5f0-447d-ae06-f42b186c2bdd_Captura de tela 2024-04-04 083200.png",
       "PackagePath": "staticwebassets\\img\\06b40593-c5f0-447d-ae06-f42b186c2bdd_Captura de tela 2024-04-04 083200.png"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\20362c7a-60a9-4f2f-a937-d4fbef3df02e_Captura de tela 2024-01-26 075419.png",
       "PackagePath": "staticwebassets\\img\\20362c7a-60a9-4f2f-a937-d4fbef3df02e_Captura de tela 2024-01-26 075419.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\5.gif",
+      "PackagePath": "staticwebassets\\img\\5.gif"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\519f42af-4766-409c-b24a-345680d8d10f_Captura de tela 2024-01-26 111454.png",
@@ -239,6 +255,10 @@
     {
       "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\e1aad041-7a3e-476d-8d70-207700869d1f_Captura de tela 2024-01-26 130858.png",
       "PackagePath": "staticwebassets\\img\\e1aad041-7a3e-476d-8d70-207700869d1f_Captura de tela 2024-01-26 130858.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\images.jpg",
+      "PackagePath": "staticwebassets\\img\\images.jpg"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\wwwroot\\img\\person.png",
