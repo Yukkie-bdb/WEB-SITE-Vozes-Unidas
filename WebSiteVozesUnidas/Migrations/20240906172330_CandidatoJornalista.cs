@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebSiteVozesUnidas.Migrations
 {
     /// <inheritdoc />
-    public partial class usuarioCargo2 : Migration
+    public partial class CandidatoJornalista : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,7 +26,7 @@ namespace WebSiteVozesUnidas.Migrations
                 name: "tbCandidatoJornalista",
                 columns: table => new
                 {
-                    IdCandidatoJornalista = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    IdCandidatoJornalista = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CandidatoId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
