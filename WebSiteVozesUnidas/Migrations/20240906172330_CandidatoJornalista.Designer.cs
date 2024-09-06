@@ -12,8 +12,8 @@ using WebSiteVozesUnidas.Data;
 namespace WebSiteVozesUnidas.Migrations
 {
     [DbContext(typeof(VozesDbContext))]
-    [Migration("20240830172818_usuarioCargo2")]
-    partial class usuarioCargo2
+    [Migration("20240906172330_CandidatoJornalista")]
+    partial class CandidatoJornalista
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,8 +55,9 @@ namespace WebSiteVozesUnidas.Migrations
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidatoJornalista", b =>
                 {
-                    b.Property<string>("IdCandidatoJornalista")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("IdCandidatoJornalista")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("CandidatoId")
                         .HasColumnType("uniqueidentifier");
