@@ -12,19 +12,92 @@
     
 </p>
 
+<div style="max-width: 1000px; margin: 0 auto; margin-bottom: 20px">
+    <ul class="nav nav-underline" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding: 0; list-style-type: none; border: solid; border-width:1px; border-radius: 50px;">
+        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
+            <button class="tablink btn text-black" onclick="trocarElementos('London', this, 'red')" id="defaultOpen">
+                <h4 class=" d-none d-md-block">Livros</h4>
+            </button>
+        </li>
+        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
+            <button class="tablink btn text-black" onclick="trocarElementos('Paris', this, 'green')">
+                <h4 class=" d-none d-md-block">Videos</h4>
+            </button>
+        </li>
+        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
+            <button class="tablink btn text-black" onclick="trocarElementos('Tokyo', this, 'blue')">
+                <h4 class=" d-none d-md-block">Artigos</h4>
+            </button>
+        </li>
+        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
+            <button class="tablink btn text-black" onclick="trocarElementos('Brasil', this, 'yellow')">
+                <h4 class=" d-none d-md-block">Direitos</h4>
+            </button>
+        </li>
+    </ul>
+</div>
 
-@foreach (var item in Model)
-{
-    <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px">
-        <img src="~/img/@item.ImgMaterial" alt="Imagem da Notícia" style="max-width: 300px; height: auto;" />
+<div class="">
+    <div id="London" class="tabcontent">
+        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Livros"))
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+                <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;" />
 
-        <div class="malala" style="margin-top: 50px">
-            <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
-            <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
-        </div>
+                <div class="malala" style="margin-top: 50px; padding-left:50px">
+                    <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                </div>
 
+            </div>
+        }
     </div>
-}
+
+    <div id="Paris" class="tabcontent row" style="display:none;">
+        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Videos"))
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+                <img src="~/img/@item.ImgMaterial" alt="Imagem do video" style="max-width: 200px; height: 280px;" />
+
+                <div class="malala" style="margin-top: 50px; padding-left:50px">
+                    <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                </div>
+
+            </div>
+        }
+    </div>
+
+    <div id="Tokyo" class="tabcontent row" style="display:none;">
+        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Artigos"))
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+                <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 200px;" />
+
+                <div class="malala" style="margin-top: 50px; padding-left:50px">
+                    <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                </div>
+
+            </div>
+        }
+    </div>
+
+    <div id="Brasil" class="tabcontent row" style="display:none;">
+        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Direitos"))
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+                <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 100;" />
+
+                <div class="malala" style="margin-top: 50px; padding-left:50px">
+                    <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                </div>
+
+            </div>
+        }
+    </div>
+</div>
 
 
 @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
@@ -72,5 +145,10 @@
     </tbody>
 </table>
 }
+
+@section Scripts {
+    <partial name="_scriptPartial" />
+}
+<script src="~/js/site.js"></script>
 
 
