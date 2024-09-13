@@ -62,7 +62,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Descricao,ImgCapa,Publicacao,UsuarioId")] Noticia noticia, IFormFile imgUp)
+        public async Task<IActionResult> Create([Bind("Id,Titulo,Resumo,Descricao,ImgCapa,Publicacao,UsuarioId")] Noticia noticia, IFormFile imgUp)
         {
             if (ModelState.IsValid)
             {
@@ -129,7 +129,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Titulo,Descricao,ImgCapa,Publicacao,UsuarioId")] Noticia noticia)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Titulo,Resumo,Descricao,ImgCapa,Publicacao,UsuarioId")] Noticia noticia)
         {
             if (id != noticia.Id)
             {

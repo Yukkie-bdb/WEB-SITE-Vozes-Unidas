@@ -1,59 +1,50 @@
 ﻿@model IEnumerable<WebSiteVozesUnidas.Models.Noticia>
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImgCapa)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Publicacao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
+@foreach (var item in Model)
+{
+    <div class="d-flex  m-2 col-12">
+        <div class=" col-4 d-flex align-content-center justify-content-center">
+            <a onclick="document.getElementById('id01').style.display='block'" class="align-self-center"><img src="~/img/@item.ImgCapa" alt="Imagem da Notícia" style="max-height:250px;border-radius:50px;" class="w-100 mw-100" /></a>
+        </div>
+        <div class="d-flex flex-column m-1 col-8 ps-1">
+            <div class="me-2 fw-bold my-2 h3 h-25">
                 @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
+            </div>
+            <div class="fw-light h5 pe-5">
                 @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-               <img src="~/img/@item.ImgCapa" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Publicacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario.Nome)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w3-container">
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container w3-teal">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                          class="w3-button w3-display-topright">&times;</span>
+                    <h2>Modal Header</h2>
+                </header>
+                <div class="w3-container">
+                    <p>
+                        <a asp-action="Create">Create New</a>
+                    </p>
+                    <p>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    </p>
+                    <p>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    </p>
+                </div>
+                <footer class="w3-container w3-teal">
+                    <p>Modal Footer</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
 }
-    </tbody>
-</table>

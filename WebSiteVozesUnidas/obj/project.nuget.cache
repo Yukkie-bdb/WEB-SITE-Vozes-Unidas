@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pWPO9YH/Y/hg+cDTOhkin8UEX0YNLruF2rc7XR7x3GhTPq16EEG8gsBXhf+IX57g4+dcNScSK7vGqj0oLdGNmQ==",
+  "dgSpecHash": "XUUNS3PKJVwGCRc/Hx1b+2IH4K4PWpdlboz61rftewfl5InEfrmLw2khjJ5iE9zA/RGVjnRP6CruP2SRMGg5KQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAI3EM\\source\\repos\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
+  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\WebSiteVozesUnidas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -200,6 +200,12 @@
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\SENAI3EM\\Desktop\\RepositorioBao\\Projetao\\WEB-SITE-Vozes-Unidas\\WebSiteVozesUnidas\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1603",
       "level": "Warning",
