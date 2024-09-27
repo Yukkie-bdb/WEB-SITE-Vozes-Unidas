@@ -24,9 +24,12 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: MaterialDidatico
         public async Task<IActionResult> Index()
         {
+            ViewData["lista"] = await _context.CategoriaMaterial.Include(m => m.MaterialDidaticos).ToListAsync();
+
             var vozesDbContext = _context.MaterialDidatico.Include(m => m.Categoria);
             return View(await vozesDbContext.ToListAsync());
         }
+
 
         // GET: MaterialDidatico/Details/5
         public async Task<IActionResult> Details(Guid? id)

@@ -2,38 +2,28 @@
 
 @{
     ViewData["Title"] = "Index";
+    // Convertendo o ViewData para o tipo correto
+    var lista = ViewData["lista"] as List<WebSiteVozesUnidas.Models.CategoriaMaterial>;
 }
 
 <p>
     @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
     {
-      <a asp-action="Create">Create New</a>  
+        <a asp-action="Create">Create New</a>
     }
-    
+
 </p>
 
 <div style="max-width: 1000px; margin: 0 auto; margin-bottom: 20px">
-    <ul class="nav nav-underline" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding: 0; list-style-type: none; border: solid; border-width:1px; border-radius: 50px;">
-        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
-            <button class="tablink btn text-black" onclick="trocarElementos('London', this, 'red')" id="defaultOpen">
-                <h4 class=" d-none d-md-block">Livros</h4>
-            </button>
-        </li>
-        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
-            <button class="tablink btn text-black" onclick="trocarElementos('Paris', this, 'green')">
-                <h4 class=" d-none d-md-block">Videos</h4>
-            </button>
-        </li>
-        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
-            <button class="tablink btn text-black" onclick="trocarElementos('Tokyo', this, 'blue')">
-                <h4 class=" d-none d-md-block">Artigos</h4>
-            </button>
-        </li>
-        <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
-            <button class="tablink btn text-black" onclick="trocarElementos('Brasil', this, 'yellow')">
-                <h4 class=" d-none d-md-block">Direitos</h4>
-            </button>
-        </li>
+    <ul class="nav nav-underline" style="display: flex; justify-content:space-around; border: solid; border-width: 1px; border-radius: 50px; padding: 0; list-style: none;">
+        @foreach (var categoria in lista)
+        {
+            <li class="nav-item p-2" style="display: flex; justify-content: center; align-items: center;">
+                <button class="tablink btn text-black" onclick="trocarElementos('@categoria.Categoria', this, 'cor')">
+                    <h4 style="margin: 0;">@categoria.Categoria</h4>
+                </button>
+            </li>
+        }
     </ul>
 </div>
 
@@ -103,47 +93,48 @@
 @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
 {
     <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Categoria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImgMaterial)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Categoria.Categoria)
-            </td>
-            <td>
-                    <img src="~/img/@item.ImgMaterial" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
-            </td>
-            <td>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImgMaterial)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Categoria.Categoria)
+                    </td>
+                    <td>
+                        <img src="~/img/@item.ImgMaterial" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
+                    </td>
+                    <td>
                         <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Edit</a>
                         <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Details</a>
                         <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
 @section Scripts {
