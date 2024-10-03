@@ -116,7 +116,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial")] MaterialDidatico materialDidatico)
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial")] MaterialDidatico materialDidatico, IFormFile imgUp)
         {
             if (id != materialDidatico.IdMaterialDidatico)
             {
@@ -127,6 +127,33 @@ namespace WebSiteVozesUnidas.Controllers
             {
                 try
                 {
+                    // Verifica se uma nova imagem foi enviada
+                    if (imgUp != null && imgUp.Length > 0)
+                    {
+                        // Define o diretório onde as imagens são armazenadas
+                        string uploadsFolder = Path.Combine(_caminho, "img");
+
+                        if (!Directory.Exists(uploadsFolder))
+                        {
+                            Directory.CreateDirectory(uploadsFolder);
+                        }
+
+                        // Gera um nome único para o arquivo
+                        string uniqueFileName = Guid.NewGuid().ToString() + "_" + imgUp.FileName;
+
+                        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        // Salva a nova imagem no servidor
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await imgUp.CopyToAsync(fileStream);
+                        }
+
+                        // Atualiza a propriedade ImgMaterial com o novo nome do arquivo
+                        materialDidatico.ImgMaterial = uniqueFileName;
+                    }
+
+                    // Atualiza o material didático no contexto
                     _context.Update(materialDidatico);
                     await _context.SaveChangesAsync();
                 }
@@ -143,6 +170,8 @@ namespace WebSiteVozesUnidas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            // Se o modelo não é válido, mantém os dados da categoria
             ViewData["CategoriaId"] = new SelectList(_context.CategoriaMaterial, "IdCategoriaMaterial", "Categoria", materialDidatico.CategoriaId);
             return View(materialDidatico);
         }

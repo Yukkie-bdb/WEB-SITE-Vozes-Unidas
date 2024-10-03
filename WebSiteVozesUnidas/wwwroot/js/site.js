@@ -19,24 +19,37 @@ function changeImageSize(width, height) {
 changeImageSize('1000px', '600px');
 
 
-function trocarElementos(cityName, elmnt, cor) {
-    // Esconde todos os elementos com class="tabcontent"
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+function trocarElementos(categoria, btn) {
+    // Hide all tab contents
+    var tabcontents = document.querySelectorAll('.tabcontent');
+    tabcontents.forEach(function (tab) {
+        tab.style.display = 'none'; // Hide each tab content
+    });
+
+    console.log('Selected category:', categoria);
+    // Show the current tab content based on the clicked category
+    var currentTab = document.getElementById(categoria);
+    if (currentTab) {
+        currentTab.style.display = 'block'; // Show the relevant tab content
+    } else {
+        console.error('No tab content found for category:', categoria); // Log error if not found
     }
 
-    // Mostra o conteúdo da aba específica
-    document.getElementById(cityName).style.display = "block";
+    // Remove 'active' class from all buttons (if you use a class to highlight active button)
+    var tablinks = document.querySelectorAll('.tablink');
+    tablinks.forEach(function (link) {
+        link.classList.remove('active');
+    });
 
-    // Remove a classe 'active' de todos os títulos h4
-    var allH4s = document.querySelectorAll('.nav-item h4');
-    allH4s.forEach(h4 => h4.classList.remove('active'));
-
-    // Adiciona a classe 'active' ao título do botão clicado
-    var h4 = elmnt.querySelector('h4');
-    if (h4) {
-        h4.classList.add('active');
+    // Add 'active' class to the clicked button (if you use a class to highlight active button)
+    if (btn) {
+        btn.classList.add('active');
     }
 }
+
+
+//// Get the element with id="defaultOpen" and click on it
+//window.onload = function () {
+//    // Show the first category by default
+//    trocarElementos('London', null, 'cor');
+//};

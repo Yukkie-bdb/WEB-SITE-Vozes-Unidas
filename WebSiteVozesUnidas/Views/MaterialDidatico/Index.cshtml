@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<WebSiteVozesUnidas.Models.MaterialDidatico>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Materiais Didáticos";
     // Convertendo o ViewData para o tipo correto
     var lista = ViewData["lista"] as List<WebSiteVozesUnidas.Models.CategoriaMaterial>;
 }
@@ -9,7 +9,7 @@
 <p>
     @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
     {
-        <a asp-action="Create">Create New</a>
+        <a asp-action="Create">Criar Novo</a>
     }
 
 </p>
@@ -27,115 +27,89 @@
     </ul>
 </div>
 
-<div class="">
-    <div id="London" class="tabcontent">
-        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Livros"))
-        {
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
-                <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;" />
+<div id="Livros" class="tabcontent" style="display:none;">
+    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Livros"))
+    {
+        <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+            <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;" />
 
-                <div class="malala" style="margin-top: 50px; padding-left:50px">
-                    <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
-                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
-                </div>
-
+            <div class="malala" style="margin-top: 50px; padding-left:50px">
+                <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                {
+                <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Editar</a>
+                <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Detalhes</a>
+                <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Deletar</a>
+                }
             </div>
-        }
-    </div>
 
-    <div id="Paris" class="tabcontent row" style="display:none;">
-        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Videos"))
-        {
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
-                <img src="~/img/@item.ImgMaterial" alt="Imagem do video" style="max-width: 200px; height: 280px;" />
-
-                <div class="malala" style="margin-top: 50px; padding-left:50px">
-                    <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
-                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
-                </div>
-
-            </div>
-        }
-    </div>
-
-    <div id="Tokyo" class="tabcontent row" style="display:none;">
-        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Artigos"))
-        {
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
-                <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 200px;" />
-
-                <div class="malala" style="margin-top: 50px; padding-left:50px">
-                    <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
-                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
-                </div>
-
-            </div>
-        }
-    </div>
-
-    <div id="Brasil" class="tabcontent row" style="display:none;">
-        @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Direitos"))
-        {
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
-                <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 100;" />
-
-                <div class="malala" style="margin-top: 50px; padding-left:50px">
-                    <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
-                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
-                </div>
-
-            </div>
-        }
-    </div>
+        </div>
+    }
 </div>
 
+<div id="Videos" class="tabcontent">
+    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Videos"))
+    {
+        <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+            <img src="~/img/@item.ImgMaterial" alt="Imagem do video" style="max-width: 300px; height: 200px;" />
 
-@if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Titulo)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Descricao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Categoria)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.ImgMaterial)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Titulo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Descricao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Categoria.Categoria)
-                    </td>
-                    <td>
-                        <img src="~/img/@item.ImgMaterial" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Edit</a>
-                        <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Details</a>
-                        <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+            <div class="malala" style="margin-top: 50px; padding-left:50px">
+                <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Deletar</a>
+                }
+            </div>
+
+        </div>
+    }
+</div>
+
+<div id="Artigos" class="tabcontent" style="display:none;">
+    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Artigos"))
+    {
+        <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+            <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 200px;" />
+
+            <div class="malala" style="margin-top: 50px; padding-left:50px">
+                <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Deletar</a>
+                }
+            </div>
+
+        </div>
+    }
+</div>
+
+<div id="Direitos" class="tabcontent" style="display:none;">
+    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Direitos"))
+    {
+        <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+            <img src="~/img/@item.ImgMaterial" alt="Imagem do direito" style="max-width: 300px; height: 200px;" />
+
+            <div class="malala" style="margin-top: 50px; padding-left:50px">
+                <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.IdMaterialDidatico">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdMaterialDidatico">Detalhes</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdMaterialDidatico">Deletar</a>
+                }
+            </div>
+
+        </div>
+    }
+</div>
 
 @section Scripts {
     <partial name="_scriptPartial" />
