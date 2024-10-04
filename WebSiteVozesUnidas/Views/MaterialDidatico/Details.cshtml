@@ -1,42 +1,52 @@
 ﻿@model WebSiteVozesUnidas.Models.MaterialDidatico
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes";
 }
 
-<h1>Details</h1>
+<h2 style="text-align:center; margin-top:10px">Detalhes do Material Didático</h2>
 
-<div>
-    <h4>MaterialDidatico</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Titulo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Titulo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categoria.Categoria)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImgMaterial)
-        </dt>
-        <dd class = "col-sm-10">
-            <img src="~/img/@Model.ImgMaterial" alt="Imagem da Notícia" style="max-width: 100px; height: auto;" />
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdMaterialDidatico">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<hr />
+
+<div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+    <img src="~/img/@Model.ImgMaterial" alt="Imagem" style="max-width: 300px; height: 200px;"/>
+
+            <div class="malala" style="margin-top: 50px; padding-left:50px">
+                <h3 style="max-width:800px">@Html.DisplayFor(modelItem => Model.Titulo)</h3>
+                <p style="max-width: 680px">@Html.DisplayFor(modelItem => Model.Descricao)</p>
+            </div>
+
+
+@* <div style="display:flex; flex-direction:row; justify-content:space-evenly">
+    <a style="margin-bottom:10px; display:inline-block; border-radius:10px; border: solid; border-width: 1px; background-color:red; width:150px; height:40px; text-align:center; line-height:40px; text-decoration:none; color:white;">
+        Apagar
+    </a>
+
+    <a asp-action="Edit" asp-route-id="@Model?.IdMaterialDidatico" style="margin-bottom:10px; display:inline-block; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; width:150px; height:40px; text-align:center; line-height:40px; text-decoration:none; color:black;">
+        Editar
+    </a>
+
+    <a asp-action="Index" style="margin-bottom:10px; display:inline-block; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; width:150px; height:40px; text-align:center; line-height:40px; text-decoration:none; color:black;">
+        Cancelar
+    </a>
+</div> *@
+
+    <div class="d-flex flex-column" style="max-width:40px">
+        <a asp-action="Delete" asp-route-id="@Model?.IdMaterialDidatico" class="btn btn-danger" style="height: 80px; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+            </svg>
+        </a>
+        <a asp-action="Edit" asp-route-id="@Model?.IdMaterialDidatico" class="btn btn-info" style="height: 80px; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-activity" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2" />
+            </svg>
+        </a>
+        <a asp-action="Index" class="btn btn-success" style="height: 80px; display: flex; align-items: center; justify-content: center; text-decoration: none; color: white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z" />
+            </svg>
+        </a>
+    </div>
 </div>

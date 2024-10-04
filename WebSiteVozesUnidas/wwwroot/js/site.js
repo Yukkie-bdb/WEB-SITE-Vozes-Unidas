@@ -46,10 +46,3 @@ function trocarElementos(categoria, btn) {
         btn.classList.add('active');
     }
 }
-
-
-//// Get the element with id="defaultOpen" and click on it
-//window.onload = function () {
-//    // Show the first category by default
-//    trocarElementos('London', null, 'cor');
-//};
