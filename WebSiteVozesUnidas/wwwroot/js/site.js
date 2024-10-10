@@ -46,3 +46,16 @@ function trocarElementos(categoria, btn) {
         btn.classList.add('active');
     }
 }
+
+function toggleVideoUpload() {
+    const categoriaSelect = document.getElementById('categoriaSelect');
+    const videoUploadDiv = document.getElementById('videoUpload');
+
+    // Altere "VIDEOS" para o valor que representa a categoria de vídeos no seu ViewBag
+    if (categoriaSelect.value === "Videos") {
+        videoUploadDiv.style.display = 'block';
+        } else {
+        videoUploadDiv.style.display = 'none';
+        }
+    }
+
