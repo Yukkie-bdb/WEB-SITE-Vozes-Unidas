@@ -27,8 +27,11 @@ namespace WebSiteVozesUnidas.Controllers
             ViewData["lista"] = await _context.CategoriaMaterial.Include(m => m.MaterialDidaticos).ToListAsync();
 
             var vozesDbContext = _context.MaterialDidatico.Include(m => m.Categoria);
-            return View(await vozesDbContext.ToListAsync());
+            var materiais = await vozesDbContext.ToListAsync();
+
+            return View(materiais);
         }
+
 
 
         // GET: MaterialDidatico/Details/5
@@ -62,7 +65,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial")] MaterialDidatico materialDidatico, IFormFile imgUp)
+        public async Task<IActionResult> Create([Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial,LinkYoutube")] MaterialDidatico materialDidatico, IFormFile imgUp)
         {
             if (ModelState.IsValid)
             {
@@ -116,7 +119,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial")] MaterialDidatico materialDidatico, IFormFile imgUp)
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdMaterialDidatico,Titulo,Descricao,CategoriaId,ImgMaterial,LinkYoutube")] MaterialDidatico materialDidatico, IFormFile imgUp)
         {
             if (id != materialDidatico.IdMaterialDidatico)
             {
@@ -214,5 +217,6 @@ namespace WebSiteVozesUnidas.Controllers
         {
             return _context.MaterialDidatico.Any(e => e.IdMaterialDidatico == id);
         }
+
     }
 }

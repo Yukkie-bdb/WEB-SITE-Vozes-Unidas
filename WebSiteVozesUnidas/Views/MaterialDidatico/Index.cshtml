@@ -16,7 +16,7 @@
 
 </p>
 
-<div style="max-width: 1000px; margin: 0 auto; margin-bottom: 20px">
+<div style="max-width: 1000px; margin: 0 auto; margin-bottom: 40px; margin-top: 20px">
     <ul class="nav nav-underline" style="display: flex; justify-content:space-around; border: solid; border-width: 1px; border-radius: 50px; padding: 0; list-style: none;">
         @foreach (var categoria in lista)
         {
@@ -32,41 +32,84 @@
 <div id="Livros" class="tabcontent" style="display:none;">
     @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Livros"))
     {
-        <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
-                <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;"/>
+        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+        {
+            <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
+                <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer">
+                    <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;"/>
+
+                    <div class="malala" style="margin-top: 50px; padding-left:50px">
+                        <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                        <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    </div>
+                </div>
+            </a>
+        }
+        else
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor:default">
+                <img src="~/img/@item.ImgMaterial" alt="Imagem do livro" style="max-width: 200px; height: 280px;" />
 
                 <div class="malala" style="margin-top: 50px; padding-left:50px">
                     <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
                     <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
                 </div>
             </div>
-        </a>
+        }
     }
 </div>
 
-<div id="Videos" class="tabcontent">
-    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Videos"))
+<div id="Vídeos" class="tabcontent" style="display:none;">
+    @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Vídeos"))
     {
-        <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer;">
-                <img src="~/img/@item.ImgMaterial" alt="Vídeo" style="max-width: 300px; height: 200px;" />
+        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+        {
+            <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
+                <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer;">
+                    <img src="~/img/@item.ImgMaterial" alt="Vídeo" style="max-width: 300px; height: 200px;" />
 
-                <div class="malala" style="margin-top: 50px; padding-left:50px">
-                    <h3>@Html.DisplayFor(modelItem => item.Titulo)</h3>
-                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    <div class="malala" style="margin-top: 50px; padding-left:50px">
+                        <h3 style="max-width:700px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                        <p style="max-width: 700px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                        <a href="@Html.DisplayFor(modelItem => item.LinkYoutube)" style="background-color:lightgray; border-radius:10px; text-decoration: none; color:inherit;" target="_blank">https://www.youtube.com/watch?v=rNoC8zDc408</a>
+                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        }
+        else
+        {
+                <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer;">
+                    <img src="~/img/@item.ImgMaterial" alt="Vídeo" style="max-width: 300px; height: 200px;" />
+
+                    <div class="malala" style="margin-top: 50px; padding-left:50px">
+                        <h3 style="max-width:700px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                        <p style="max-width: 700px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    </div>
+                </div>
+            
+        }
     }
 </div>
 
-
-<div id="Artigos" class="tabcontent" style="display:none;">
+<div id="Artigos" class="tabcontent">
     @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Artigos"))
     {
-        <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+        {
+            <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
+                <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer">
+                    <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 200px;" />
+
+                    <div class="malala" style="margin-top: 50px; padding-left:50px">
+                        <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                        <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    </div>
+                </div>
+            </a>
+        }
+        else
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: default">
                 <img src="~/img/@item.ImgMaterial" alt="Imagem do artigo" style="max-width: 300px; height: 200px;" />
 
                 <div class="malala" style="margin-top: 50px; padding-left:50px">
@@ -74,15 +117,29 @@
                     <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
                 </div>
             </div>
-        </a>
+        }
     }
 </div>
 
 <div id="Direitos" class="tabcontent" style="display:none;">
     @foreach (var item in Model.Where(i => i.Categoria.Categoria == "Direitos"))
     {
-        <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
-            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center">
+        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+        {
+            <a href="@Url.Action("Details", new { id = item.IdMaterialDidatico })" style="text-decoration: none; color: inherit;">
+                <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: pointer">
+                    <img src="~/img/@item.ImgMaterial" alt="Imagem do direito" style="max-width: 300px; height: 200px;" />
+
+                    <div class="malala" style="margin-top: 50px; padding-left:50px">
+                        <h3 style="max-width:800px">@Html.DisplayFor(modelItem => item.Titulo)</h3>
+                        <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    </div>
+                </div>
+            </a>
+        }
+        else
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; margin-bottom: 50px; justify-content:center; cursor: default">
                 <img src="~/img/@item.ImgMaterial" alt="Imagem do direito" style="max-width: 300px; height: 200px;" />
 
                 <div class="malala" style="margin-top: 50px; padding-left:50px">
@@ -90,7 +147,7 @@
                     <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.Descricao)</p>
                 </div>
             </div>
-        </a>
+        }
     }
 </div>
 

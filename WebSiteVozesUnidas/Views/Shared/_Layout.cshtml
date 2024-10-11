@@ -38,10 +38,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Noticias" asp-action="index">Noticias</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Especialhistas" asp-action="index">Especialistas</a>
+                        </li>
                         @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
                         {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="AvaliacaoEspecialhistas" asp-action="index">Especialhistas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AvaliacaoEspecialhistas" asp-action="index"> Avaliação Especialistas</a>
                         </li>
                         }
                         <li class="nav-item">

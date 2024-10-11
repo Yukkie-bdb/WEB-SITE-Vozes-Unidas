@@ -1,7 +1,7 @@
 ﻿@model WebSiteVozesUnidas.Models.MaterialDidatico
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar";
 }
 
 <h2 style="text-align:center; margin-top:10px">Criar Novo Material Didático</h2>
@@ -30,10 +30,10 @@
                 <input asp-for="ImgMaterial" type="file" name="ImgUp" class="form-control" />
                 <span asp-validation-for="ImgMaterial" class="text-danger"></span>
             </div>
-            <div class="form-group mb-3" id="videoUpload" style="display: none;">
-                <label asp-for="ImgMaterial" class="control-label"></label>
-                <input asp-for="ImgMaterial" type="file" name="VideoUp" class="form-control" accept="video/*" />
-                <span asp-validation-for="ImgMaterial" class="text-danger"></span>
+            <div class="form-group mb-3">
+                <label asp-for="LinkYoutube" class="control-label"></label>
+                <input asp-for="LinkYoutube" class="form-control" />
+                <span asp-validation-for="LinkYoutube" class="text-danger"></span>
             </div>
             <div style="display:flex; flex-direction:column; justify-content: center; align-items: center">
                 <button type ="submit" value="Criar" style="margin-bottom:10px; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; align-items:center; width:250px; height:40px">

@@ -15,10 +15,6 @@ namespace WebSiteVozesUnidas.Models
         public IEnumerable<Especialhista>? Especialhistas { get; set; }
         public IEnumerable<Post>? Posts { get; set; }
         public IEnumerable<Comentario>? Comentarios { get; set; }
-
-
-
-
     }
     public enum UsuarioTipo
     {
@@ -40,8 +36,6 @@ namespace WebSiteVozesUnidas.Models
         public string Telefone { get; set; }
         public string Descricao { get; set; }
         public IEnumerable<VagaEmprego>? VagaEmpregos { get; set; }
-
-
     }
 
     public class Candidato : Usuario

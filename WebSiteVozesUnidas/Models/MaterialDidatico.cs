@@ -14,5 +14,7 @@ namespace WebSiteVozesUnidas.Models
         public CategoriaMaterial? Categoria { get; set; }
         [Display(Name = "Imagem")]
         public string? ImgMaterial { get; set; }
-    }
+        [Display(Name = "Link Youtube")]
+        public string LinkYoutube { get; set; }
+    } 
 }

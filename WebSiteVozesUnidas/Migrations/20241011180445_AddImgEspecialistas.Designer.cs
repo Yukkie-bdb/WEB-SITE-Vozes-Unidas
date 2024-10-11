@@ -12,8 +12,8 @@ using WebSiteVozesUnidas.Data;
 namespace WebSiteVozesUnidas.Migrations
 {
     [DbContext(typeof(VozesDbContext))]
-    [Migration("20240906181436_Noticia2")]
-    partial class Noticia2
+    [Migration("20241011180445_AddImgEspecialistas")]
+    partial class AddImgEspecialistas
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -159,6 +159,9 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImgEspecialista")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -191,6 +194,10 @@ namespace WebSiteVozesUnidas.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImgMaterial")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LinkYoutube")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")

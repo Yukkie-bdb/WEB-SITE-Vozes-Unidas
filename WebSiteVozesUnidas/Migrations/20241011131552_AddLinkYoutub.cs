@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebSiteVozesUnidas.Migrations
 {
     /// <inheritdoc />
-    public partial class vagaEmpregoMVC : Migration
+    public partial class AddLinkYoutub : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -43,6 +43,7 @@ namespace WebSiteVozesUnidas.Migrations
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImagemPerfil = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Tipo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -58,7 +59,8 @@ namespace WebSiteVozesUnidas.Migrations
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoriaId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ImgMaterial = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ImgMaterial = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    LinkYoutube = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -76,7 +78,8 @@ namespace WebSiteVozesUnidas.Migrations
                 columns: table => new
                 {
                     IdUsuario = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Cpf = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Cpf = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Cargo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -137,6 +140,7 @@ namespace WebSiteVozesUnidas.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Resumo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImgCapa = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Publicacao = table.Column<DateOnly>(type: "date", nullable: false),
                     UsuarioId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
@@ -178,6 +182,24 @@ namespace WebSiteVozesUnidas.Migrations
                         principalTable: "tbUsuario",
                         principalColumn: "IdUsuario",
                         onDelete: ReferentialAction.SetNull);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbCandidatoJornalista",
+                columns: table => new
+                {
+                    IdCandidatoJornalista = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CandidatoId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tbCandidatoJornalista", x => x.IdCandidatoJornalista);
+                    table.ForeignKey(
+                        name: "FK_tbCandidatoJornalista_tbCandidato_CandidatoId",
+                        column: x => x.CandidatoId,
+                        principalTable: "tbCandidato",
+                        principalColumn: "IdUsuario",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -291,6 +313,11 @@ namespace WebSiteVozesUnidas.Migrations
                 column: "UsuarioId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_tbCandidatoJornalista_CandidatoId",
+                table: "tbCandidatoJornalista",
+                column: "CandidatoId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_tbCandidaturaVagamprego_CandidatoId",
                 table: "tbCandidaturaVagamprego",
                 column: "CandidatoId");
@@ -346,6 +373,9 @@ namespace WebSiteVozesUnidas.Migrations
         {
             migrationBuilder.DropTable(
                 name: "tbAvaliacaoEspecialhista");
+
+            migrationBuilder.DropTable(
+                name: "tbCandidatoJornalista");
 
             migrationBuilder.DropTable(
                 name: "tbCandidaturaVagamprego");

@@ -13,10 +13,13 @@ namespace WebSiteVozesUnidas.Controllers
     public class EspecialhistasController : Controller
     {
         private readonly VozesDbContext _context;
+        private string _caminho;
 
-        public EspecialhistasController(VozesDbContext context)
+
+        public EspecialhistasController(VozesDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            _caminho = hostEnvironment.WebRootPath;
         }
 
         // GET: Especialhistas
@@ -54,10 +57,31 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade")] Especialhista especialhista)
+        public async Task<IActionResult> Create([Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade,ImgEspecialista")] Especialhista especialhista, IFormFile imgUp)
         {
             if (ModelState.IsValid)
             {
+                especialhista.IdEspecialhista = Guid.NewGuid();
+                if (imgUp != null && imgUp.Length > 0)
+                {
+                    string uploadsFolder = Path.Combine(_caminho, "img");
+
+                    if (!Directory.Exists(uploadsFolder))
+                    {
+                        Directory.CreateDirectory(uploadsFolder);
+                    }
+
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + imgUp.FileName;
+
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imgUp.CopyToAsync(fileStream);
+                    }
+                    especialhista.ImgEspecialista = uniqueFileName;
+                }
+
                 especialhista.IdEspecialhista = Guid.NewGuid();
                 _context.Add(especialhista);
                 await _context.SaveChangesAsync();
@@ -87,7 +111,7 @@ namespace WebSiteVozesUnidas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade")] Especialhista especialhista)
+        public async Task<IActionResult> Edit(Guid id, [Bind("IdEspecialhista,Nome,Telefone,Email,Especialhidade,ImgEspecialista")] Especialhista especialhista, IFormFile imgUp)
         {
             if (id != especialhista.IdEspecialhista)
             {
@@ -98,6 +122,27 @@ namespace WebSiteVozesUnidas.Controllers
             {
                 try
                 {
+                    if (imgUp != null && imgUp.Length > 0)
+                    {
+                        string uploadsFolder = Path.Combine(_caminho, "img");
+
+                        if (!Directory.Exists(uploadsFolder))
+                        {
+                            Directory.CreateDirectory(uploadsFolder);
+                        }
+
+                        string uniqueFileName = Guid.NewGuid().ToString() + "_" + imgUp.FileName;
+
+                        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await imgUp.CopyToAsync(fileStream);
+                        }
+
+                        especialhista.ImgEspecialista = uniqueFileName;
+                    }
+
                     _context.Update(especialhista);
                     await _context.SaveChangesAsync();
                 }

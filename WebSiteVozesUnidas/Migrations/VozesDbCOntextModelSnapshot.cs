@@ -156,6 +156,9 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImgEspecialista")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -188,6 +191,10 @@ namespace WebSiteVozesUnidas.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImgMaterial")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LinkYoutube")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")

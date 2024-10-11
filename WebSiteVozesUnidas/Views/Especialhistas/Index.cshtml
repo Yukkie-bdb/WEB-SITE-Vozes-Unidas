@@ -24,6 +24,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Especialhidade)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgEspecialista)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -41,6 +44,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Especialhidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgEspecialista)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdEspecialhista">Edit</a> |

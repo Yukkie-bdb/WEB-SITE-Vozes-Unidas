@@ -12,8 +12,8 @@ using WebSiteVozesUnidas.Data;
 namespace WebSiteVozesUnidas.Migrations
 {
     [DbContext(typeof(VozesDbContext))]
-    [Migration("20240823144336_testeParaver")]
-    partial class testeParaver
+    [Migration("20241011131552_AddLinkYoutub")]
+    partial class AddLinkYoutub
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,6 +51,22 @@ namespace WebSiteVozesUnidas.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("tbAvaliacaoEspecialhista", (string)null);
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidatoJornalista", b =>
+                {
+                    b.Property<Guid>("IdCandidatoJornalista")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CandidatoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("IdCandidatoJornalista");
+
+                    b.HasIndex("CandidatoId");
+
+                    b.ToTable("tbCandidatoJornalista", (string)null);
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidaturaVagamprego", b =>
@@ -177,6 +193,10 @@ namespace WebSiteVozesUnidas.Migrations
                     b.Property<string>("ImgMaterial")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("LinkYoutube")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Titulo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -203,6 +223,10 @@ namespace WebSiteVozesUnidas.Migrations
 
                     b.Property<DateOnly>("Publicacao")
                         .HasColumnType("date");
+
+                    b.Property<string>("Resumo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")
                         .IsRequired()
@@ -264,6 +288,9 @@ namespace WebSiteVozesUnidas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImagemPerfil")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -317,6 +344,9 @@ namespace WebSiteVozesUnidas.Migrations
                 {
                     b.HasBaseType("WebSiteVozesUnidas.Models.Usuario");
 
+                    b.Property<int>("Cargo")
+                        .HasColumnType("int");
+
                     b.Property<string>("Cpf")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -360,6 +390,17 @@ namespace WebSiteVozesUnidas.Migrations
                     b.Navigation("Especialhista");
 
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidatoJornalista", b =>
+                {
+                    b.HasOne("WebSiteVozesUnidas.Models.Candidato", "Candidato")
+                        .WithMany("CandidatoJornalistas")
+                        .HasForeignKey("CandidatoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Candidato");
                 });
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.CandidaturaVagamprego", b =>
@@ -510,6 +551,8 @@ namespace WebSiteVozesUnidas.Migrations
 
             modelBuilder.Entity("WebSiteVozesUnidas.Models.Candidato", b =>
                 {
+                    b.Navigation("CandidatoJornalistas");
+
                     b.Navigation("CandidaturaVagampregos");
                 });
 
