@@ -1,59 +1,68 @@
 ﻿@model IEnumerable<WebSiteVozesUnidas.Models.Especialhista>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Especialistas";
 }
 
-<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+    {
+        <button type="submit" value="Criar" style="margin-bottom:10px; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; width:250px; height:40px; margin:10px">
+            <a asp-action="Create" style="text-decoration:none; color:black">Criar Novo</a>
+        </button>
+    }
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Especialhidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImgEspecialista)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Especialhidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImgEspecialista)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdEspecialhista">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdEspecialhista">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdEspecialhista">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="tabcontent">
+    @* Lista de cores para os fundos dos cartões *@
+    @{
+        var colors = new[] { "#C0245F", "#A7FF88", "#388AD7" }; // Adicione mais cores se necessário
+    }
+    @foreach (var item in Model.Select((value, index) => new { value, index }))
+    {
+        var backgroundColor = colors[item.index % colors.Length]; // Seleciona a cor com base no índice
+        var gradientDirection = (item.index % 2 == 0) ? "to left" : "to right";
+        @if (User.HasClaim(c => c.Type == "UsuarioTipo" && c.Value == "Admin"))
+        {
+            <a href="@Url.Action("Details", new { id = item.value.IdEspecialhista })" style="text-decoration: none; color: inherit;">
+                <div class="cartao" style="display:flex; flex-direction:row; justify-content:center; cursor: pointer; background: linear-gradient(@gradientDirection, @backgroundColor 50%, white);">
+                    <img src="~/img/@item.value.ImgEspecialista" alt="Imagem do livro" style="max-width: 180px; height: 180px; margin-top: 10px" />
+
+                    <div class="malala" style="margin-top: 20px; padding-left:100px">
+                        <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.value.Especialhidade)</p>
+                        <a href="https://wa.me/@item.value.Telefone" target="_blank">
+                            <button style="margin-bottom:10px; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; width:350px; height:50px; margin:10px; cursor:pointer; font-size:20px">
+                                Contato
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+        }
+        else
+        {
+            <div class="cartao" style="display:flex; flex-direction:row; justify-content:center; cursor:default; background: linear-gradient(to left, @backgroundColor 55%, white);">
+                <img src="~/img/@item.value.ImgEspecialista" alt="Imagem do especialista" style="max-width: 180px; height: 180px; margin-top: 10px" />
+
+                <div class="malala" style="margin-top: 20px; padding-left:100px">
+                    <p style="max-width: 680px">@Html.DisplayFor(modelItem => item.value.Especialhidade)</p>
+                    <a href="https://wa.me/@item.value.Telefone" target="_blank">
+                        <button style="margin-bottom:10px; border-radius:10px; border: solid; border-width: 1px; background-color:#FFFFFF; width:350px; height:50px; margin:10px; cursor:pointer; font-size:20px">
+                            Contato
+                        </button>
+                    </a>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+<h3 style="text-align:center; margin-top:40px">Avaliações</h3>
+
+<div class="avalcontent">
+    @foreach (var item in Model)
+    {
+        
+    }
+</div>

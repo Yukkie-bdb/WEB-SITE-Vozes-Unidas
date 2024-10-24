@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using WebSiteVozesUnidas.Data;
 using WebSiteVozesUnidas.Models;
 
@@ -24,7 +25,7 @@ namespace WebSiteVozesUnidas.Controllers
 
         // GET: Especialhistas
         public async Task<IActionResult> Index()
-        {
+        {   
             return View(await _context.Especialhista.ToListAsync());
         }
 
@@ -82,7 +83,6 @@ namespace WebSiteVozesUnidas.Controllers
                     especialhista.ImgEspecialista = uniqueFileName;
                 }
 
-                especialhista.IdEspecialhista = Guid.NewGuid();
                 _context.Add(especialhista);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

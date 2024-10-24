@@ -49,8 +49,8 @@ namespace WebSiteVozesUnidas.Controllers
         // GET: AvaliacaoEspecialhistas/Create
         public IActionResult Create()
         {
-            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista");
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario");
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "Nome");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome");
             return View();
         }
 
@@ -72,8 +72,8 @@ namespace WebSiteVozesUnidas.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "Nome", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
@@ -90,8 +90,8 @@ namespace WebSiteVozesUnidas.Controllers
             {
                 return NotFound();
             }
-            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "Nome", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
@@ -127,8 +127,8 @@ namespace WebSiteVozesUnidas.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "IdEspecialhista", avaliacaoEspecialhista.EspecialhistaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "IdUsuario", avaliacaoEspecialhista.UsuarioId);
+            ViewData["EspecialhistaId"] = new SelectList(_context.Especialhista, "IdEspecialhista", "Nome", avaliacaoEspecialhista.EspecialhistaId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "IdUsuario", "Nome", avaliacaoEspecialhista.UsuarioId);
             return View(avaliacaoEspecialhista);
         }
 
