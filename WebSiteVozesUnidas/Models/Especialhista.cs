@@ -14,5 +14,11 @@ namespace WebSiteVozesUnidas.Models
         public string Especialhidade { get; set; }
         public IEnumerable<AvaliacaoEspecialhista>? AvaliacoesEspecialhistas { get; set; }
 
+        public Usuario Usuario { get; set; }
+
+        public double MediaEstrelas => AvaliacoesEspecialhistas?.Any() == true
+        ? AvaliacoesEspecialhistas.Average(a => a.Estrelas)
+        : 0;
+
     }
 }

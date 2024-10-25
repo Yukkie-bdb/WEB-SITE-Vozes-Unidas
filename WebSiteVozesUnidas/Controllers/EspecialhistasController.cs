@@ -24,10 +24,18 @@ namespace WebSiteVozesUnidas.Controllers
         }
 
         // GET: Especialhistas
-        public async Task<IActionResult> Index()
-        {   
-            return View(await _context.Especialhista.ToListAsync());
+        public IActionResult Index()
+        {
+            var especialistas = _context.Especialhista
+                .Include(e => e.AvaliacoesEspecialhistas)
+                    .ThenInclude(a => a.Usuario)
+                .ToList();
+
+            return View(especialistas ?? new List<Especialhista>());
         }
+
+
+
 
         // GET: Especialhistas/Details/5
         public async Task<IActionResult> Details(Guid? id)

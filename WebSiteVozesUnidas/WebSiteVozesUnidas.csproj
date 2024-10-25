@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\img\cc663941-6426-48bd-85dc-321e7f13395d_5 seconds timer - Temporizador 5 segundos- Cronómetro 5 segundos..mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="bootstrap" Version="5.3.3" />
     <PackageReference Include="BootstrapIcons.AspNetCore" Version="1.11.0" />
