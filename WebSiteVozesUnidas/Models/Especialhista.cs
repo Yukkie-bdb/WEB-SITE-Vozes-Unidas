@@ -16,9 +16,5 @@ namespace WebSiteVozesUnidas.Models
 
         public Usuario Usuario { get; set; }
 
-        public double MediaEstrelas => AvaliacoesEspecialhistas?.Any() == true
-        ? AvaliacoesEspecialhistas.Average(a => a.Estrelas)
-        : 0;
-
     }
 }

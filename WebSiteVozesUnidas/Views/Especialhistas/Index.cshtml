@@ -84,95 +84,9 @@
                 {
                     <div class="evaluation">
                         <p style="max-width:500px"><strong>@avaliacao.Usuario.Nome:</strong> @avaliacao.Descricao</p>
-                        <ul class="list-unstyled d-flex">
-                            @for (int i = 0; i < avaliacao.Estrelas; i++)
-                            {
-                                <li>
-                                    <i class="fas fa-star text-warning"></i>
-                                </li>
-                            }
-                            @if (avaliacao.Estrelas % 1 != 0)
-                            {
-                                <li>
-                                    <i class="fas fa-star-half-alt text-warning"></i>
-                                </li>
-                            }
-                            @for (int i = avaliacao.Estrelas; i < 5; i++)
-                            {
-                                <li>
-                                    <i class="fas fa-star text-secondary"></i>
-                                </li>
-                            }
-                        </ul>
                     </div>
                 }
             </div>
         }
     }
-</div>
-<div class="avalcontent">
-    <section>
-        @if (Model != null && Model.Any(e => e.AvaliacoesEspecialhistas != null && e.AvaliacoesEspecialhistas.Any()))
-        {
-            foreach (var item in Model.Where(e => e.AvaliacoesEspecialhistas != null && e.AvaliacoesEspecialhistas.Any()))
-            {
-                <div class="row text-center">
-                    <div style="display:flex">
-                        <div class="d-flex justify-content-center">
-                            @if (item.Usuario != null && !string.IsNullOrEmpty(item.Usuario.ImagemPerfil))
-                            {
-                                <img src="@item.Usuario.ImagemPerfil" class="rounded-circle shadow-1-strong" width="150" height="150" />
-                            }
-                           @*  else
-                            {
-                                <img src="@item.Usuario.ImagemPerfil" class="rounded-circle shadow-1-strong" width="250" height="250" />
-                            } *@
-                        </div>
-                        <ul class="list-unstyled d-flex justify-content-center mb-0">
-                            @for (int i = 0; i < 5; i++)
-                            {
-                                <li>
-                                    <i class="fas fa-star @(i < item.MediaEstrelas ? "text-warning" : "text-secondary")"></i>
-                                </li>
-                            }
-                        </ul>
-
-                        <div class="mt-4">
-                            <h6>Especialista: @item.Nome</h6>
-                            @foreach (var avaliacao in item.AvaliacoesEspecialhistas)
-                            {
-                                <div class="evaluation">
-                                    <p style="max-width:500px"><strong>@avaliacao.Usuario.Nome:</strong> @avaliacao.Descricao</p>
-                                    <ul class="list-unstyled d-flex">
-                                        @for (int i = 0; i < avaliacao.Estrelas; i++)
-                                        {
-                                            <li>
-                                                <i class="fas fa-star text-warning"></i>
-                                            </li>
-                                        }
-                                        @if (avaliacao.Estrelas % 1 != 0)
-                                        {
-                                            <li>
-                                                <i class="fas fa-star-half-alt text-warning"></i>
-                                            </li>
-                                        }
-                                        @for (int i = avaliacao.Estrelas; i < 5; i++)
-                                        {
-                                            <li>
-                                                <i class="fas fa-star text-secondary"></i>
-                                            </li>
-                                        }
-                                    </ul>
-                                </div>
-                            }
-                        </div>
-                    </div>
-                </div>
-            }
-        }
-        else
-        {
-            <p>Nenhum especialista com avaliações encontrado.</p>
-        }
-    </section>
 </div>
